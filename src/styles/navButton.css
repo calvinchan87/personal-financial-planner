@@ -1,0 +1,8 @@
+.nav-button {
+  border: none;
+  background: none; 
+}
+
+.nav-button:hover {
+  text-decoration: underline;
+}
