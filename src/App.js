@@ -1,13 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+
+import NetWorthPie from './components/NetWorthPie';
+import TransactionPie from './components/TransactionPie';
+
+import './styles/app.css'
+
 
 function App() {
+  const [active, setActive] = useState("overview")
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h1>Personal Financial Planner</h1>
-      </header>
+      <nav>
+        <button onClick = {() => setActive("overview")}>Overview</button>
+        <button onClick = {() => setActive("transaction")}>Transactions</button>
+      </nav>
+      <div>
+        {active === "overview" && <NetWorthPie />}
+        {active === "transaction" && <TransactionPie />}
+      </div>
     </div>
   );
 }
