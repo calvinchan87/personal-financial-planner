@@ -22,7 +22,6 @@ const TransactionPie = () => {
         backgroundColor: ['#00887A', '#FFCCBC', '#D3E3FC', '#77A6F7']
     }],
       }}
-
     />
   </div>
 }
