@@ -1,13 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+
+import AcctSummaryTable from './components/AcctSummaryTable'
+
 
 function App() {
+  const [active, setActive] = useState("overview")
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h1>Personal Financial Planner</h1>
-      </header>
+      <nav className="nav-bar">
+        <button class="nav-button" onClick = {() => setActive("overview")}>Overview</button>
+        <button class="nav-button" onClick = {() => setActive("transaction")}>Transactions</button>
+      </nav>
+      <div>
+        {active === "overview" && <AcctSummaryTable />}
+        {active === "transaction"}
+      </div>
     </div>
   );
 }
