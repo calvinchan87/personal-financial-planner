@@ -1,5 +1,6 @@
 import React from 'react';
 import { Pie } from 'react-chartjs-2'
+import { netWorth } from '../helpers/netWorth'
 
 import '../styles/transactionsPie.css'
 
@@ -16,7 +17,14 @@ const NetWorthPie = () => {
         backgroundColor: ['#77A6F7', '#FFCCBC']
     }],
       }}
-
+      options = {{
+        plugins: {
+            title: {
+                display: true,
+                text: `networth = ${netWorth()}`
+            }
+        }
+    }}
     />
   </div>
 }

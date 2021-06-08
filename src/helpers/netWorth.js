@@ -5,25 +5,13 @@ const netWorthObj = [
   }
 ];
 
-// export function netWorth() {
-//   let netWorth = netWorthObj.assets
-//   return netWorth;
-// }
-
-const netWorth = function() {
-  let netWorthArray = [];
-
-  for(const data of netWorthObj) {
-    netWorthArray.push(data.assets)
-    netWorthArray.push(data.debt)
-  }
-  let result = 0
-  for (let x = 0; x < netWorthArray.length; x++) {
-    if (netWorthArray[0]) {
-      result += netWorthArray[0]
-    }
-  }
-  return result
+export function netWorth() {
+  const assets = netWorthObj[0].assets
+  const debt = netWorthObj[0].debt
+  const formatter = new Intl.NumberFormat('en-US', {
+    style: 'currency',
+    currency: 'USD',
+    minimumFractionDigits: 0
+  })
+  return formatter.format(assets - debt);
 }
-
-console.log(netWorth())
