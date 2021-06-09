@@ -5,7 +5,13 @@ import GroupedBar from './components/monthlySpendBarChart'
 import GroupedBar2 from './components/govCompareChart'
 import FlipCard from './components/flipcard'
 
+import IncomeExpenseLineGraph from './components/IncomeExpenseLineGraph';
+import NetWorthPie from './components/NetWorthPie';
+import TransactionPage from './components/TransactionPage';
+
+import './styles/app.css'
 import './styles/navButton.css'
+
 
 function App() {
   const [active, setActive] = useState("overview")
@@ -18,11 +24,13 @@ function App() {
       </nav>
       <div>
         {active === "overview" && <AcctSummaryTable />}
-        {active === "transaction"}
+        {active === "overview" && <IncomeExpenseLineGraph />}
+        {active === "overview" && <NetWorthPie />}
+        {active === "transaction" && <TransactionPage />}
         {active === "insight" && <GroupedBar />}
         {active === "insight" && <GroupedBar2/>}
         {active === "insight" && <FlipCard/>}
-      </div>
+      </div>  
     </div>
   );
 }
