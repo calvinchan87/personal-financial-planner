@@ -1,0 +1,26 @@
+.ant-alert-description {
+  font-size: 12px;
+}
+
+.ant-alert-description:hover {
+  text-decoration: underline;
+}
+
+.ant-alert-success {
+  width: 33%;
+}
+
+.ant-alert-error {
+  background-color: grey;
+  width: 33%;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+}
+
+.headline {
+  padding: 10px;
+}
