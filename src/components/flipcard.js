@@ -1,7 +1,7 @@
 import { useRef } from 'react';
 import Flippy, { FrontSide, BackSide } from 'react-flippy';
 
-export default function Sample() {
+export default function FlipCard() {
   const ref = useRef();
   return (
     <Flippy

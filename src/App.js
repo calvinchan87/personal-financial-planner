@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import AcctSummaryTable from './components/AcctSummaryTable'
 import GroupedBar from './components/monthlySpendBarChart'
 import GroupedBar2 from './components/govCompareChart'
-import Sample from './components/flipcard'
+import FlipCard from './components/flipcard'
 
 import './styles/navButton.css'
 
@@ -21,7 +21,7 @@ function App() {
         {active === "transaction"}
         {active === "insight" && <GroupedBar />}
         {active === "insight" && <GroupedBar2/>}
-        {active === "insight" && <Sample/>}
+        {active === "insight" && <FlipCard/>}
       </div>
     </div>
   );
