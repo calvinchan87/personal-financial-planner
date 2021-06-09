@@ -5,13 +5,15 @@ import { Categories, Amounts } from '../helpers/transactionsPie'
 
 import '../styles/transactionsPie.css'
 
-const TransactionPie = () => {
+const TransactionPie = (props) => {
     return <div class = 'transactionpie'>
     <Pie
      data = {{
         labels: Categories(),
       datasets: [{
-        data: Amounts(),
+        data: props.filteredRows.map((row) => {
+          return row.amount;  
+        }),
         backgroundColor: ['#00887A', '#FFCCBC', '#D3E3FC', '#77A6F7']
     }],
       }}
