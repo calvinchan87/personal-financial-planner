@@ -1,11 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 const Input = (prop) => {
-  
+  const [filter, setFilter] = useState("")
   return <div>
-    <input type="text" placeholder="eg. June 2021" onChange={(event) => prop.setFilter(event.target.value)} ></input>
-  
-</div>
+    
+    <input type="text" placeholder="eg. June 2021" onChange={(event) => setFilter(event.target.value)} value={filter}></input>
+    <button onClick={() => prop.setFilter(filter)}></button>
+    
+  </div>
 }
 
 export default Input;

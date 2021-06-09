@@ -105,7 +105,15 @@ export function Amounts() {
 };
 
 export function Filter(obj, filterString) {
+  if(filterString.includes(" ")) {
+    const strings = filterString.split(" ")
+    let filteredObjects = obj;
+    for(const filter of strings) {
+      filteredObjects = filteredObjects.filter((e) => e.date.toLowerCase().includes(filter.toLowerCase()))
+    }
+    return filteredObjects;
+  }
   return obj.filter(function(e) {
-    return e.date.includes(filterString)
+    return e.date.toLowerCase().includes(filterString.toLowerCase())
   })
 };
