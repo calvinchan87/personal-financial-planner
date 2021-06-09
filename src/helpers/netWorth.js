@@ -15,3 +15,9 @@ export function netWorth() {
   })
   return formatter.format(assets - debt);
 }
+
+export function assetsDebt() {
+  let assetDebtArray = []
+  assetDebtArray.push(netWorthObj[0].assets, netWorthObj[0].debt)
+  return assetDebtArray
+}

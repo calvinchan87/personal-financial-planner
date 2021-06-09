@@ -1,6 +1,6 @@
 import React from 'react';
 import { Pie } from 'react-chartjs-2'
-import { netWorth } from '../helpers/netWorth'
+import { netWorth, assetsDebt } from '../helpers/netWorth'
 
 import '../styles/transactionsPie.css'
 
@@ -13,7 +13,7 @@ const NetWorthPie = () => {
           'Debt',
       ],
       datasets: [{
-        data: [60, 20],
+        data: assetsDebt(),
         backgroundColor: ['#77A6F7', '#FFCCBC']
     }],
       }}

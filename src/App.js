@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 
 import IncomeExpenseLineGraph from './components/IncomeExpenseLineGraph';
-import TransactionPie from './components/TransactionPie';
 import NetWorthPie from './components/netWorthPie';
+import TransactionPage from './components/TransactionPage';
 
 import './styles/app.css'
 import './styles/navButton.css'
@@ -19,7 +19,7 @@ function App() {
       <div>
         {active === "overview" && <IncomeExpenseLineGraph />}
         {active === "overview" && <NetWorthPie />}
-        {active === "transaction" && <TransactionPie />}
+        {active === "transaction" && <TransactionPage />}
       </div>
     </div>
   );
