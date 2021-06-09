@@ -57,21 +57,21 @@ const transactionObj = [
   },
   { 
     id: 1,
-    date: 'June 1, 2021',
+    date: 'June 1, 2020',
     description: "Gas",
     category: "transportation",
     amount: 60
   },
   { 
     id: 1,
-    date: 'June 2, 2021',
+    date: 'June 2, 2020',
     description: "Costco",
     category: "food",
     amount: 235
   },
   { 
     id: 1,
-    date: 'June 3, 2021',
+    date: 'June 3, 2020',
     description: "Whole Foods",
     category: "food",
     amount: 57
@@ -103,11 +103,6 @@ export function Amounts() {
   }
   return amountArray;
 };
-
-// const newObj = transactionObj.filter(function(e) {
-//   return e.date.includes("June")
-// })
-// console.log(newObj)
 
 export function Filter(obj, filterString) {
   return obj.filter(function(e) {
