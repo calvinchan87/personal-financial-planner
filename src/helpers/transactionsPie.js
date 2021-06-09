@@ -1,28 +1,28 @@
 const transactionObj = [
   { 
     id: 1,
-    date: 'June 1, 2021',
+    date: 'April 1, 2021',
     description: "Whole Foods",
     category: "shelter",
     amount: 100
   },
   { 
     id: 1,
-    date: 'June 2, 2021',
+    date: 'April 2, 2021',
     description: "Gas",
     category: "transportation",
     amount: 100
   },
   { 
     id: 1,
-    date: 'June 3, 2021',
+    date: 'May 3, 2021',
     description: "Whole Foods",
     category: "food",
     amount: 100
   },
   { 
     id: 1,
-    date: 'June 4, 2021',
+    date: 'May 4, 2021',
     description: "Whole Foods",
     category: "household",
     amount: 100
@@ -78,21 +78,28 @@ const transactionObj = [
   },
 ]
 
-// export function Rows() {
-//   let tranArray = [];
-//   for(const obj of transactionObj) {
-//     tranArray.push(obj)
-//   }
-//   return tranArray;
-// }
+export function Rows() {
+  let tranArray = [];
+  for(const obj of transactionObj) {
+    tranArray.push(obj)
+  }
+  return tranArray;
+};
 
-const Categories = function() {
+export function Categories() {
   let categoryArray = [];
   for(const obj of transactionObj) {
-    categoryArray.push()
+    if(!categoryArray.includes(obj.category)) {
+      categoryArray.push(obj.category)
+    }
   }
-}
+  return categoryArray;
+};
 
-const Labels = function() {
-
-}
+export function Amounts() {
+  let amountArray = [];
+  for(const obj of transactionObj) {
+    amountArray.push(obj.amount)
+  }
+  return amountArray;
+};
