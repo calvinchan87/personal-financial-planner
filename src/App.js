@@ -8,6 +8,7 @@ import FlipCard from './components/flipcard'
 import IncomeExpenseLineGraph from './components/IncomeExpenseLineGraph';
 import NetWorthPie from './components/NetWorthPie';
 import TransactionPage from './components/TransactionPage';
+import Badge from './components/Badge'
 
 import './styles/app.css'
 import './styles/navButton.css'
@@ -21,6 +22,7 @@ function App() {
         <button class="nav-button" onClick = {() => setActive("overview")}>Overview</button>
         <button class="nav-button" onClick = {() => setActive("transaction")}>Transactions</button>
         <button class="nav-button" onClick = {() => setActive("insight")}>Insights</button>
+        <button class="nav-button" onClick = {() => setActive("achievements")}>Achievements</button>
       </nav>
       <div>
         {active === "overview" && <AcctSummaryTable />}
@@ -30,6 +32,7 @@ function App() {
         {active === "insight" && <GroupedBar />}
         {active === "insight" && <GroupedBar2/>}
         {active === "insight" && <FlipCard/>}
+        {active === "achievements" && <Badge />}
       </div>  
     </div>
   );
