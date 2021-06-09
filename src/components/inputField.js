@@ -1,32 +1,12 @@
-// import React from 'react';
+import React from 'react';
 
-// const Input = () => {
-//     return (
-      
-//         <div>
-//           <input>Search here</input>
-//         </div>
-        
-//     )
-  
-   
-
-// }
-
-
-import React, { useState } from 'react';
-import Calendar from 'react-calendar';
-
-function Input() {
-  const [value, onChange] = useState(new Date());
-  
-  return (
-    <div>
-      <Calendar
-        onChange={onChange}
-        value={value}
-        />
-    </div>
-  );
+const Input = () => {
+  return <div>
+  <button>
+    Filter June only
+  </button>
+</div>
 }
+
+
 export default Input;

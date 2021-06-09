@@ -2,7 +2,7 @@ const transactionObj = [
   { 
     id: 1,
     date: 'April 1, 2021',
-    description: "Whole Foods",
+    description: "Rent",
     category: "shelter",
     amount: 100
   },
@@ -16,7 +16,7 @@ const transactionObj = [
   { 
     id: 1,
     date: 'May 3, 2021',
-    description: "Whole Foods",
+    description: "Safeway",
     category: "food",
     amount: 100
   },
@@ -30,7 +30,7 @@ const transactionObj = [
   { 
     id: 1,
     date: 'June 5, 2021',
-    description: "Whole Foods",
+    description: "Superstore",
     category: "food",
     amount: 100
   },
@@ -44,7 +44,7 @@ const transactionObj = [
   { 
     id: 1,
     date: 'June 4, 2021',
-    description: "Whole Foods",
+    description: "Utilities",
     category: "shelter",
     amount: 100
   },
@@ -58,14 +58,14 @@ const transactionObj = [
   { 
     id: 1,
     date: 'June 1, 2021',
-    description: "Whole Foods",
+    description: "Gas",
     category: "transportation",
     amount: 100
   },
   { 
     id: 1,
     date: 'June 2, 2021',
-    description: "Whole Foods",
+    description: "Costco",
     category: "food",
     amount: 100
   },
@@ -103,3 +103,8 @@ export function Amounts() {
   }
   return amountArray;
 };
+
+const newObj = transactionObj.filter(function(e) {
+  return e.date.includes("June")
+})
+console.log(newObj)
