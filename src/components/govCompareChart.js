@@ -12,7 +12,7 @@ const data = {
     'transportation',
     'health & personal care',
     'recreation, education and reading',
-    // 'alcoholic beverages & tobacco'
+    'alcoholic beverages & tobacco'
   ],
   datasets: [
     {

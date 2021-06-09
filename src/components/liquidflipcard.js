@@ -15,13 +15,13 @@ export default function LiquidFlipCard() {
       // and other props, which will go to div
       style={{ width: '200px', height: '200px' }} /// these are optional style, it is not necessary
   >
-    <FrontSide style={{ backgroundColor: '#41669d'}} >
+    <FrontSide style={{ backgroundColor: 'rgb(255, 99, 132)'}} >
       Your current Liquidity Ratio: {(30000 + 90000) / 4000} <br />
       {/* <button onClick={() => { ref.current.toggle(); }}></button> */}
     </FrontSide>
-    <BackSide style={{ backgroundColor: '#175852'}}>
-      Savings Rate is the difference between your Income and Expenses divided by your Income.
-      You should aim to have at least 10% Savings rate.
+    <BackSide style={{ backgroundColor: 'rgb(54, 162, 235)'}}>
+      Liquidity Ratio is your Monetary assets you have divided by your monthly expenses.
+      Monetary assets include cash, cash-equivalent securities, money-markets.
     </BackSide>
   </Flippy>
   )

@@ -13,11 +13,11 @@ export default function SaveFlipCard() {
       // and other props, which will go to div
       style={{ width: '200px', height: '200px' }} /// these are optional style, it is not necessary
   >
-    <FrontSide style={{ backgroundColor: '#41669d'}} >
+    <FrontSide style={{ backgroundColor: 'rgb(255, 99, 132)'}} >
       Your current Savings Rate: {(50000 - 45000) / 50000 * 100}% <br />
       {/* <button onClick={() => { ref.current.toggle(); }}></button> */}
     </FrontSide>
-    <BackSide style={{ backgroundColor: '#175852'}}>
+    <BackSide style={{ backgroundColor: 'rgb(54, 162, 235)'}}>
       Savings Rate is the difference between your Income and Expenses divided by your Income.
       You should aim to have at least 10% Savings rate.
     </BackSide>
