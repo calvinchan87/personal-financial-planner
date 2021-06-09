@@ -1,7 +1,7 @@
 import React from 'react';
 import { Bar } from 'react-chartjs-2';
 
-import '../styles/groupedbar2.css'
+import '../styles/insightchart.css'
 
 const data = {
   labels: [

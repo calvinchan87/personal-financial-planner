@@ -29,9 +29,11 @@ function App() {
         {active === "overview" && <IncomeExpenseLineGraph />}
         {active === "overview" && <NetWorthPie />}
         {active === "transaction" && <TransactionPage />}
-        {active === "insight" && <GroupedBar />}
-        {active === "insight" && <GroupedBar2/>}
       </div>  
+      <div class="insightchart">
+        {active === "insight" && <GroupedBar/>}
+        {active === "insight" && <GroupedBar2/>}
+      </div>
       <div class="flipcard">
         {active === "insight" && <SaveFlipCard/>}
         {active === "insight" && <LiquidFlipCard/>}
