@@ -3,22 +3,28 @@ import TransactionPie from './TransactionPie';
 import SpendingLineGraph from './SpendingComponents/SpendingLineGraph';
 import BasicTable from './TransactionsTable';
 import Input from './inputField';
+import { Rows, Filter } from '../helpers/transactionsPie';
 
 import '../styles/navButton.css'
 
+const rows = Rows();
+
+
 const TransactionPage = () => {
   const [active, setActive] = useState("categories-only")
+  const [filter, setFilter] = useState("");
+  const filteredRows = Filter(rows, filter);
     return (
       <section>
         <div>
           <button class="nav-button" onClick={() => setActive("categories-only")}>Categories</button>
           <button class="nav-button" onClick={() => setActive("spending-line-graph-only")}>Spending Graph</button>
         </div>
-          {active === "categories-only" && <Input />}
-          {active === "categories-only" && <TransactionPie />}
-          {active === "categories-only" && <BasicTable />}
+          {active === "categories-only" && <Input setFilter={setFilter} />}
+          {active === "categories-only" && <TransactionPie filteredRows={filteredRows}/>}
+          {active === "categories-only" && <BasicTable filteredRows={filteredRows}/>}
           {active === "spending-line-graph-only" &&<SpendingLineGraph />}
-          {active === "spending-line-graph-only" &&<BasicTable />}
+          {active === "spending-line-graph-only" &&<BasicTable filteredRows={filteredRows}/>}
       </section>
     )
   

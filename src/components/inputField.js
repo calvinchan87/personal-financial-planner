@@ -1,8 +1,8 @@
 import React from 'react';
 
-const Input = () => {
+const Input = (prop) => {
   return <div>
-  <button>
+  <button onClick={() => prop.setFilter("June")}>
     Filter June only
   </button>
 </div>

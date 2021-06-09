@@ -15,10 +15,11 @@ const useStyles = makeStyles({
   },
 });
 
-const rows = Rows();
+// const rows = Rows();
 
-export default function BasicTable() {
+export default function BasicTable(props) {
   const classes = useStyles();
+  const rows = props.filteredRows;
 
   return (
     <TableContainer component={Paper}>
