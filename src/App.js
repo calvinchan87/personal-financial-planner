@@ -3,7 +3,9 @@ import React, { useState } from 'react';
 import AcctSummaryTable from './components/AcctSummaryTable'
 import GroupedBar from './components/monthlySpendBarChart'
 import GroupedBar2 from './components/govCompareChart'
-import FlipCard from './components/flipcard'
+import SaveFlipCard from './components/saveflipcard'
+import LiquidFlipCard from './components/liquidflipcard'
+import EmergencyFlipCard from './components/emergencyflipcard'
 
 import IncomeExpenseLineGraph from './components/IncomeExpenseLineGraph';
 import NetWorthPie from './components/NetWorthPie';
@@ -12,7 +14,7 @@ import Badge from './components/Badge'
 
 import './styles/app.css'
 import './styles/navButton.css'
-
+import './styles/flipcard.css'
 
 function App() {
   const [active, setActive] = useState("overview")
@@ -29,11 +31,17 @@ function App() {
         {active === "overview" && <IncomeExpenseLineGraph />}
         {active === "overview" && <NetWorthPie />}
         {active === "transaction" && <TransactionPage />}
-        {active === "insight" && <GroupedBar />}
-        {active === "insight" && <GroupedBar2/>}
-        {active === "insight" && <FlipCard/>}
         {active === "achievements" && <Badge />}
       </div>  
+      <div class="insightchart">
+        {active === "insight" && <GroupedBar/>}
+        {active === "insight" && <GroupedBar2/>}
+      </div>
+      <div class="flipcard">
+        {active === "insight" && <SaveFlipCard/>}
+        {active === "insight" && <LiquidFlipCard/>}
+        {active === "insight" && <EmergencyFlipCard/>}
+      </div>
     </div>
   );
 }
