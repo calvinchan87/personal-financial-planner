@@ -28,7 +28,7 @@ const IncomeExpenseLineGraph = () => {
     ],
   }}
   options={{ 
-    maintainAspectRatio: true
+    maintainAspectRatio: true,
    }}
     />
   </div>
