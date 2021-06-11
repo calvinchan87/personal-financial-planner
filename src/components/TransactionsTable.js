@@ -36,6 +36,7 @@ const ListTransactions = () => {
     getTransactions();
   }, []);
   const classes = useStyles();
+
   // const rows = props.filteredRows;
   // const customTableStyle = {width: 100}
 
