@@ -22,6 +22,9 @@ const NetWorthPie = () => {
             title: {
                 display: true,
                 text: `networth = ${netWorth()}`
+            },
+            legend: {
+              display: false
             }
         }
     }}

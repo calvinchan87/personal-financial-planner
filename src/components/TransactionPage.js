@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import TransactionPie from './TransactionPie';
 import SpendingLineGraph from './SpendingComponents/SpendingLineGraph';
-import BasicTable from './TransactionsTable';
+import ListTransactions from './TransactionsTable';
 import Input from './inputField';
 import { Rows, Filter } from '../helpers/transactionsPie';
 
@@ -22,9 +22,9 @@ const TransactionPage = () => {
         </div>
           {active === "categories-only" && <Input setFilter={setFilter} />}
           {active === "categories-only" && <TransactionPie filteredRows={filteredRows}/>}
-          {active === "categories-only" && <BasicTable filteredRows={filteredRows}/>}
+          {active === "categories-only" && <ListTransactions filteredRows={filteredRows}/>}
           {active === "spending-line-graph-only" &&<SpendingLineGraph />}
-          {active === "spending-line-graph-only" &&<BasicTable filteredRows={filteredRows}/>}
+          {active === "spending-line-graph-only" &&<ListTransactions filteredRows={filteredRows}/>}
       </section>
     )
   

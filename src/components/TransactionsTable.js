@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{ Fragment, useEffect, useState } from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Table from '@material-ui/core/Table';
 import TableBody from '@material-ui/core/TableBody';
@@ -15,14 +15,32 @@ const useStyles = makeStyles({
   },
 });
 
-// const rows = Rows();
+const ListTransactions = () => {
 
-export default function BasicTable(props) {
+  const [transactions, setTransactions] = useState([]);
+
+  const getTransactions = async () => {
+    try {
+
+      const response = await fetch('http://localhost:5000/transactions')
+      const jsonData = await response.json()
+
+      console.log(jsonData);
+
+      setTransactions(jsonData);
+    } catch (err) {
+      console.error(err.message)
+    }
+  };
+
+  useEffect(() => {
+    getTransactions();
+  }, []);
   const classes = useStyles();
-  const rows = props.filteredRows;
 
   return (
-    <TableContainer component={Paper}>
+    <Fragment>
+      <TableContainer component={Paper}>
       <Table className={classes.table} aria-label="simple table">
         <TableHead>
           <TableRow>
@@ -33,18 +51,22 @@ export default function BasicTable(props) {
           </TableRow>
         </TableHead>
         <TableBody>
-          {rows.map((row) => (
-            <TableRow key={row.id}>
+          {transactions.map(transaction => (
+            <TableRow key={transaction.id}>
               <TableCell component="th" scope="row">
-                {row.date}
+                {transaction.date}
               </TableCell>
-              <TableCell align="right">{row.description}</TableCell>
-              <TableCell align="right">{row.category}</TableCell>
-              <TableCell align="right">{row.amount}</TableCell>
+              <TableCell align="right">{transaction.description}</TableCell>
+              <TableCell align="right">{transaction.category_id}</TableCell>
+              <TableCell align="right">{transaction.amount}</TableCell>
             </TableRow>
           ))}
         </TableBody>
       </Table>
     </TableContainer>
-  );
-}
+    </Fragment>
+  )
+};
+
+export default ListTransactions;
+
