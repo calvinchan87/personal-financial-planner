@@ -78,6 +78,27 @@ const transactionObj = [
   },
 ]
 
+export function getCategoryAndAmountSummary(array) {
+  let totalsums = {};
+  for (let x = 0; x < array.length; x++) {
+    let singleTransaction = array[x]
+    if (singleTransaction.category in totalsums) {
+      totalsums[singleTransaction.category] += singleTransaction.amount
+    } else {
+      totalsums[singleTransaction.category] = singleTransaction.amount
+    }
+  }
+  let categories = [];
+  let amounts = [];
+  
+  for (let key of Object.keys(totalsums)) {
+    categories.push(key)
+    amounts.push(totalsums[key])
+  }
+  return {categories, amounts};
+}
+
+
 export function Rows() {
   let tranArray = [];
   for(const obj of transactionObj) {
@@ -94,14 +115,6 @@ export function Categories() {
     }
   }
   return categoryArray;
-};
-
-export function Amounts() {
-  let amountArray = [];
-  for(const obj of transactionObj) {
-    amountArray.push(obj.amount)
-  }
-  return amountArray;
 };
 
 export function Filter(obj, filterString) {
