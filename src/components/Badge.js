@@ -34,13 +34,16 @@ function Debt(props) {
 }
 
 function Energy(props) {
-  const isEarned = props.isEarned;
-  if (isEarned) {
-    return <Alert style={{background: `linear-gradient(rgba(255,255,255,.7), rgba(255,255,255,.6)), url("https://images.unsplash.com/photo-1579417195379-5f6916d883a4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=640")`}}
-                  message="Energy Efficient" type="success" showIcon />
-  }
+  const criteria = props.data;
+  const dataLength = criteria.filter(transaction => {
+    if (transaction.amount > 2) {
+      return true
+    }
+    return false
+  }).length;
+  const isEarned = dataLength > 0 ? true : false;
   return <Alert style={{background: `linear-gradient(rgba(255,255,255,.7), rgba(255,255,255,.6)), url("https://images.unsplash.com/photo-1579417195379-5f6916d883a4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=640")`}}
-                message="Energy Efficient" type="error" showIcon />
+                message="Energy Efficient" type={isEarned ? "success" : "error"} showIcon />
 }
 
 export default class Badge extends Component {
@@ -48,13 +51,13 @@ export default class Badge extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      apiResponse: ""
+      apiResponse: []
     };
   }
 
   callAPI() {
     fetch("http://localhost:3001/testAPI")
-      .then(res => res.text())
+      .then(res => res.json())
       .then(res => this.setState({ apiResponse: res }));
   }
 
@@ -63,6 +66,7 @@ export default class Badge extends Component {
   }
 
   render() {
+    // console.log(this.state.apiResponse)
     return (
     <>
       <br></br>
@@ -105,13 +109,24 @@ export default class Badge extends Component {
         <div class="container-ind">
           <Tooltip title="Unlock this achievement by spending less than 5% of your total income on electricity and natural gas bills over the last 12 months." placement="bottomLeft">
             <span>
-              <Energy isEarned={false} />
+              <Energy isEarned={false} data={this.state.apiResponse} />
             </span>
           </Tooltip>
         </div>
       </div>
       <br></br>
-      <h6>{this.state.apiResponse}</h6>
+      {/* <h6>{this.state.apiResponse}</h6> */}
+      <h6>{this.state.apiResponse.map(transaction => {
+        return <div key={transaction.id}>{transaction.amount}</div>
+      })}</h6>
+      <br></br>
+      <h6>{this.state.apiResponse.filter(transaction => {
+        if (transaction.amount > 2) {
+          return true
+        }
+        return false
+      }).length
+      }</h6>
       {/* <br></br>
       <Alert
         message="Informational Notes"
