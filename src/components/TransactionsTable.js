@@ -7,7 +7,6 @@ import TableContainer from '@material-ui/core/TableContainer';
 import TableHead from '@material-ui/core/TableHead';
 import TableRow from '@material-ui/core/TableRow';
 import Paper from '@material-ui/core/Paper';
-import {Rows} from '../helpers/transactionsPie'
 
 const useStyles = makeStyles({
   table: {
@@ -38,13 +37,20 @@ const ListTransactions = () => {
   }, []);
   const classes = useStyles();
 
+  // const rows = props.filteredRows;
+  // const customTableStyle = {width: 100}
+
+  // return (
+  //   <TableContainer component={Paper}>
+  //     <Table style={customTableStyle} className={classes.table} aria-label="simple table">
+
   return (
     <Fragment>
       <TableContainer component={Paper}>
       <Table className={classes.table} aria-label="simple table">
         <TableHead>
           <TableRow>
-            <TableCell>Date</TableCell>
+            <TableCell >Date</TableCell>
             <TableCell align="right">Description</TableCell>
             <TableCell align="right">Category</TableCell>
             <TableCell align="right">Amount&nbsp;($)</TableCell>

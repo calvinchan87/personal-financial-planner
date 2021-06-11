@@ -14,6 +14,7 @@ const TransactionPage = () => {
   const [active, setActive] = useState("categories-only")
   const [filter, setFilter] = useState("");
   const filteredRows = Filter(rows, filter);
+  console.log("filtered rows------>", filteredRows)
     return (
       <section>
         <div>
