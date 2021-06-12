@@ -94,9 +94,6 @@ export default function useTransactionData() {
     }
   }
 
-
-
-
   function getCategoryAndAmountSummary(transactions) { 
     let totalsums = {};
     console.log("totalsums", totalsums)
@@ -157,10 +154,6 @@ export default function useTransactionData() {
       return e.date.toLowerCase().includes(filterString.toLowerCase())
     })
   };
-
-
-
-
   
   useEffect(() => {
     getTransactions();
