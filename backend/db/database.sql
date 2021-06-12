@@ -19,7 +19,7 @@ CREATE TABLE userAccountDetails (
 
 CREATE TABLE category (
   id SERIAL PRIMARY KEY NOT NULL,
-  category_name VARCHAR(255)
+  category VARCHAR(255)
 );
 
 CREATE TABLE transactions (
