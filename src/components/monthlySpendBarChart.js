@@ -4,16 +4,16 @@ import { Bar } from 'react-chartjs-2';
 import '../styles/insightchart.css'
 
 const data = {
-  labels: ['Savings', 'Expenses'],
+  labels: ['Expenses'],
   datasets: [
     {
       label: 'Previous month',
-      data: ['500', '2500'],
+      data: [],
       backgroundColor: 'rgb(255, 99, 132)',
     },
     {
       label: 'Current month',
-      data: ['600', '2400'],
+      data: ['2400'],
       backgroundColor: 'rgb(54, 162, 235)',
     }
   ],

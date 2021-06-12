@@ -1,615 +1,615 @@
-﻿id,user_account_details_id,user_id,category_id,description,date,amount,month,year
-1,3,1,1,Uber Eats,Jun-21,20.50,June,2021
-2,3,1,3,Amazon,Jun-21,34.00,June,2021
-3,3,1,3,Wayfair,Jun-21,92.00,June,2021
-4,3,1,7,OneCycle,Jun-21,22.50,June,2021
-5,3,1,3,Amazon,Jun-21,40.00,June,2021
-6,3,1,3,Amazon,Jun-21,40.00,June,2021
-7,3,1,5,LuluLemon,Jun-21,102.00,June,2021
-8,1,1,4,Petro Canada,Jun-21,59.00,June,2021
-9,3,1,5,LuluLemon,Jun-21,104.00,June,2021
-10,3,1,6,Shoppers DrugMart Pharmacy,Jun-21,11.00,June,2021
-11,3,1,1,Costco,Jun-21,110.00,June,2021
-12,3,1,3,Wayfair,Jun-21,67.00,June,2021
-13,3,1,1,Uber Eats,Jun-21,21.75,June,2021
-14,3,1,5,LuluLemon,Jun-21,107.00,June,2021
-15,3,1,4,Petro Canada,Jun-21,52.00,June,2021
-16,3,1,4,Petro Canada,Jun-21,52.00,June,2021
-17,3,1,2,Liquor Depot,Jun-21,21.00,June,2021
-18,3,1,1,Uber Eats,Jun-21,17.55,June,2021
-19,3,1,1,Whole Foods,Jun-21,167.00,June,2021
-20,3,1,1,Safeway,Jun-21,30.00,June,2021
-21,3,1,1,Costco,Jun-21,162.00,June,2021
-22,3,1,3,Bed Bath & Beyond,Jun-21,74.00,June,2021
-23,3,1,1,Earls,Jun-21,21.00,June,2021
-24,3,1,3,Bed Bath & Beyond,Jun-21,108.00,June,2021
-25,3,1,3,Amazon,Jun-21,47.00,June,2021
-26,3,1,4,Petro Canada,Jun-21,56.00,June,2021
-27,1,1,2,Liquor Depot,Jun-21,47.00,June,2021
-28,3,1,5,LuluLemon,Jun-21,131.00,June,2021
-29,3,1,7,OneCycle,Jun-21,22.50,June,2021
-30,3,1,5,LuluLemon,Jun-21,81.00,June,2021
-31,3,1,6,Shoppers DrugMart Pharmacy,Jun-21,7.00,June,2021
-32,3,1,4,Petro Canada,Jun-21,60.00,June,2021
-33,3,1,8,rent,Jun-21,1800.00,June,2021
-34,3,1,7,Kindle,May-21,18.00,May,2021
-35,3,1,1,Whole Foods,May-21,172.00,May,2021
-36,3,1,1,Costco,May-21,81.00,May,2021
-37,1,1,1,Whole Foods,May-21,167.00,May,2021
-38,3,1,3,Wayfair,May-21,94.00,May,2021
-39,3,1,1,Safeway,May-21,114.00,May,2021
-40,1,1,7,OneCycle,May-21,22.50,May,2021
-41,3,1,1,Costco,May-21,171.00,May,2021
-42,3,1,4,Calgary Transit,May-21,3.50,May,2021
-43,3,1,4,Calgary Transit,May-21,3.50,May,2021
-44,3,1,1,Whole Foods,May-21,236.00,May,2021
-45,3,1,5,LuluLemon,May-21,93.00,May,2021
-46,3,1,6,Shoppers DrugMart Pharmacy,May-21,14.00,May,2021
-47,3,1,7,OneCycle,May-21,22.50,May,2021
-48,3,1,4,Petro Canada,May-21,56.00,May,2021
-49,3,1,6,Shoppers DrugMart Pharmacy,May-21,15.00,May,2021
-50,1,1,3,Amazon,May-21,26.00,May,2021
-51,3,1,7,OneCycle,May-21,22.50,May,2021
-52,1,1,3,Bed Bath & Beyond,May-21,142.00,May,2021
-53,3,1,1,Earls,May-21,56.00,May,2021
-54,3,1,4,Petro Canada,May-21,60.00,May,2021
-55,3,1,2,Liquor Depot,May-21,21.00,May,2021
-56,1,1,7,OneCycle,May-21,22.50,May,2021
-57,1,1,7,Kindle,May-21,36.00,May,2021
-58,3,1,4,Calgary Transit,May-21,3.50,May,2021
-59,3,1,1,Costco,May-21,189.00,May,2021
-60,3,1,1,Costco,May-21,82.00,May,2021
-61,3,1,7,Kindle,May-21,26.00,May,2021
-62,3,1,8,rent,May-21,1800.00,May,2021
-63,3,1,7,Kindle,Apr-21,37.00,April,2021
-64,3,1,2,Liquor Depot,Apr-21,21.00,April,2021
-65,3,1,2,Liquor Depot,Apr-21,36.00,April,2021
-66,3,1,7,Kindle,Apr-21,32.00,April,2021
-67,3,1,6,Shoppers DrugMart Pharmacy,Apr-21,12.00,April,2021
-68,3,1,3,Amazon,Apr-21,22.00,April,2021
-69,3,1,5,LuluLemon,Apr-21,144.00,April,2021
-70,1,1,4,Petro Canada,Apr-21,59.00,April,2021
-71,1,1,3,Wayfair,Apr-21,90.00,April,2021
-72,3,1,6,Shoppers DrugMart Pharmacy,Apr-21,7.00,April,2021
-73,1,1,7,OneCycle,Apr-21,22.50,April,2021
-74,3,1,2,Liquor Depot,Apr-21,51.00,April,2021
-75,1,1,2,Liquor Depot,Apr-21,44.00,April,2021
-76,3,1,1,Earls,Apr-21,22.00,April,2021
-77,1,1,4,Petro Canada,Apr-21,53.00,April,2021
-78,3,1,4,Calgary Transit,Apr-21,3.50,April,2021
-79,3,1,3,Bed Bath & Beyond,Apr-21,52.00,April,2021
-80,3,1,3,Wayfair,Apr-21,68.00,April,2021
-81,3,1,7,OneCycle,Apr-21,22.50,April,2021
-82,3,1,5,LuluLemon,Apr-21,106.00,April,2021
-83,3,1,3,Amazon,Apr-21,37.00,April,2021
-84,3,1,7,Kindle,Apr-21,23.00,April,2021
-85,3,1,5,LuluLemon,Apr-21,133.00,April,2021
-86,3,1,1,Uber Eats,Apr-21,21.75,April,2021
-87,3,1,7,OneCycle,Apr-21,22.50,April,2021
-88,3,1,1,Whole Foods,Apr-21,141.00,April,2021
-89,3,1,8,rent,Apr-21,1800.00,April,2021
-90,3,1,2,Liquor Depot,Apr-21,36.00,April,2021
-91,3,1,7,OneCycle,Mar-21,22.50,March,2021
-92,3,1,6,Shoppers DrugMart Pharmacy,Mar-21,11.00,March,2021
-93,3,1,2,Liquor Depot,Mar-21,47.00,March,2021
-94,3,1,4,Calgary Transit,Mar-21,3.50,March,2021
-95,3,1,5,LuluLemon,Mar-21,121.00,March,2021
-96,3,1,1,Whole Foods,Mar-21,40.00,March,2021
-97,3,1,1,Uber Eats,Mar-21,16.65,March,2021
-98,3,1,5,LuluLemon,Mar-21,104.00,March,2021
-99,3,1,6,Shoppers DrugMart Pharmacy,Mar-21,14.00,March,2021
-100,3,1,4,Calgary Transit,Mar-21,3.50,March,2021
-101,1,1,7,Kindle,Mar-21,34.00,March,2021
-102,3,1,6,Shoppers DrugMart Pharmacy,Mar-21,13.00,March,2021
-103,3,1,1,Earls,Mar-21,44.00,March,2021
-104,3,1,3,Wayfair,Mar-21,72.00,March,2021
-105,3,1,2,Liquor Depot,Mar-21,49.00,March,2021
-106,3,1,3,Amazon,Mar-21,33.00,March,2021
-107,3,1,1,Earls,Mar-21,73.00,March,2021
-108,3,1,4,Petro Canada,Mar-21,56.00,March,2021
-109,3,1,2,Liquor Depot,Mar-21,40.00,March,2021
-110,3,1,8,rent,Mar-21,1800.00,March,2021
-111,3,1,4,Petro Canada,Feb-21,61.00,February,2021
-112,3,1,7,Kindle,Feb-21,24.00,February,2021
-113,3,1,2,Liquor Depot,Feb-21,44.00,February,2021
-114,3,1,5,LuluLemon,Feb-21,98.00,February,2021
-115,3,1,7,OneCycle,Feb-21,22.50,February,2021
-116,3,1,3,Bed Bath & Beyond,Feb-21,84.00,February,2021
-117,3,1,1,Earls,Feb-21,44.00,February,2021
-118,3,1,4,Petro Canada,Feb-21,55.00,February,2021
-119,3,1,4,Petro Canada,Feb-21,65.00,February,2021
-120,3,1,2,Liquor Depot,Feb-21,39.00,February,2021
-121,3,1,1,Earls,Feb-21,34.00,February,2021
-122,3,1,3,Bed Bath & Beyond,Feb-21,61.00,February,2021
-123,3,1,5,LuluLemon,Feb-21,123.00,February,2021
-124,3,1,1,Uber Eats,Feb-21,17.55,February,2021
-125,3,1,4,Calgary Transit,Feb-21,3.50,February,2021
-126,3,1,4,Petro Canada,Feb-21,50.00,February,2021
-127,3,1,3,Bed Bath & Beyond,Feb-21,65.00,February,2021
-128,3,1,7,OneCycle,Feb-21,22.50,February,2021
-129,3,1,5,LuluLemon,Feb-21,91.00,February,2021
-130,3,1,1,Whole Foods,Feb-21,225.00,February,2021
-131,3,1,4,Calgary Transit,Feb-21,3.50,February,2021
-132,3,1,6,Shoppers DrugMart Pharmacy,Feb-21,10.00,February,2021
-133,3,1,3,Bed Bath & Beyond,Feb-21,52.00,February,2021
-134,3,1,7,OneCycle,Feb-21,22.50,February,2021
-135,3,1,8,rent,Feb-21,1800.00,February,2021
-136,3,1,1,Uber Eats,Jan-21,16.65,January,2021
-137,3,1,5,LuluLemon,Jan-21,85.00,January,2021
-138,1,1,2,Liquor Depot,Jan-21,51.00,January,2021
-139,3,1,3,Amazon,Jan-21,15.00,January,2021
-140,3,1,2,Liquor Depot,Jan-21,26.00,January,2021
-141,3,1,1,Whole Foods,Jan-21,138.00,January,2021
-142,1,1,5,LuluLemon,Jan-21,77.00,January,2021
-143,3,1,7,OneCycle,Jan-21,22.50,January,2021
-144,1,1,3,Bed Bath & Beyond,Jan-21,104.00,January,2021
-145,1,1,6,Shoppers DrugMart Pharmacy,Jan-21,15.00,January,2021
-146,3,1,4,Petro Canada,Jan-21,64.00,January,2021
-147,1,1,2,Liquor Depot,Jan-21,30.00,January,2021
-148,3,1,4,Calgary Transit,Jan-21,3.50,January,2021
-149,3,1,1,Costco,Jan-21,139.00,January,2021
-150,3,1,6,Shoppers DrugMart Pharmacy,Jan-21,6.00,January,2021
-151,3,1,3,Amazon,Jan-21,17.00,January,2021
-152,3,1,2,Liquor Depot,Jan-21,39.00,January,2021
-153,3,1,2,Liquor Depot,Jan-21,30.00,January,2021
-154,3,1,7,Kindle,Jan-21,25.00,January,2021
-155,3,1,6,Shoppers DrugMart Pharmacy,Jan-21,15.00,January,2021
-156,3,1,8,rent,Jan-21,1800.00,January,2021
-157,3,1,5,LuluLemon,Jan-21,127.00,January,2021
-158,3,1,4,Petro Canada,Dec-20,55.00,December,2020
-159,3,1,4,Calgary Transit,Dec-20,3.50,December,2020
-160,3,1,3,Wayfair,Dec-20,54.00,December,2020
-161,3,1,5,LuluLemon,Dec-20,107.00,December,2020
-162,3,1,4,Calgary Transit,Dec-20,3.50,December,2020
-163,3,1,7,Kindle,Dec-20,20.00,December,2020
-164,3,1,3,Wayfair,Dec-20,82.00,December,2020
-165,1,1,3,Bed Bath & Beyond,Dec-20,67.00,December,2020
-166,1,1,5,LuluLemon,Dec-20,124.00,December,2020
-167,3,1,7,Kindle,Dec-20,41.00,December,2020
-168,3,1,1,Uber Eats,Dec-20,21.75,December,2020
-169,3,1,3,Bed Bath & Beyond,Dec-20,79.00,December,2020
-170,3,1,7,OneCycle,Dec-20,22.50,December,2020
-171,3,1,1,Earls,Dec-20,45.00,December,2020
-172,3,1,2,Liquor Depot,Dec-20,26.00,December,2020
-173,3,1,1,Earls,Dec-20,68.00,December,2020
-174,3,1,1,Earls,Dec-20,44.00,December,2020
-175,3,1,2,Liquor Depot,Dec-20,51.00,December,2020
-176,3,1,5,LuluLemon,Dec-20,137.00,December,2020
-177,3,1,1,Uber Eats,Dec-20,17.55,December,2020
-178,1,1,3,Amazon,Dec-20,45.00,December,2020
-179,3,1,1,Whole Foods,Dec-20,181.00,December,2020
-180,3,1,1,Costco,Dec-20,249.00,December,2020
-181,3,1,2,Liquor Depot,Dec-20,21.00,December,2020
-182,3,1,3,Wayfair,Dec-20,66.00,December,2020
-183,3,1,8,rent,Dec-20,1800.00,December,2020
-184,3,1,4,Calgary Transit,Dec-20,3.50,December,2020
-185,1,1,1,Costco,Nov-20,82.00,November,2020
-186,3,1,7,Kindle,Nov-20,33.00,November,2020
-187,3,1,5,LuluLemon,Nov-20,109.00,November,2020
-188,3,1,5,LuluLemon,Nov-20,133.00,November,2020
-189,3,1,4,Calgary Transit,Nov-20,3.50,November,2020
-190,3,1,2,Liquor Depot,Nov-20,36.00,November,2020
-191,3,1,1,Earls,Nov-20,59.00,November,2020
-192,3,1,7,Kindle,Nov-20,40.00,November,2020
-193,1,1,7,OneCycle,Nov-20,22.50,November,2020
-194,3,1,2,Liquor Depot,Nov-20,54.00,November,2020
-195,3,1,1,Uber Eats,Nov-20,21.75,November,2020
-196,3,1,1,Whole Foods,Nov-20,29.00,November,2020
-197,3,1,7,Kindle,Nov-20,41.00,November,2020
-198,3,1,2,Liquor Depot,Nov-20,46.00,November,2020
-199,3,1,1,Whole Foods,Nov-20,106.00,November,2020
-200,3,1,6,Shoppers DrugMart Pharmacy,Nov-20,6.00,November,2020
-201,3,1,7,Kindle,Nov-20,28.00,November,2020
-202,3,1,2,Liquor Depot,Nov-20,41.00,November,2020
-203,3,1,1,Costco,Nov-20,90.00,November,2020
-204,1,1,4,Calgary Transit,Nov-20,3.50,November,2020
-205,3,1,2,Liquor Depot,Nov-20,53.00,November,2020
-206,3,1,5,LuluLemon,Nov-20,76.00,November,2020
-207,3,1,4,Calgary Transit,Nov-20,3.50,November,2020
-208,3,1,8,rent,Nov-20,1800.00,November,2020
-209,3,1,4,Petro Canada,Oct-20,61.00,October,2020
-210,1,1,4,Petro Canada,Oct-20,61.00,October,2020
-211,3,1,4,Calgary Transit,Oct-20,3.50,October,2020
-212,3,1,3,Bed Bath & Beyond,Oct-20,79.00,October,2020
-213,1,1,4,Petro Canada,Oct-20,61.00,October,2020
-214,1,1,1,Whole Foods,Oct-20,29.00,October,2020
-215,3,1,7,OneCycle,Oct-20,22.50,October,2020
-216,3,1,1,Whole Foods,Oct-20,207.00,October,2020
-217,3,1,4,Petro Canada,Oct-20,56.00,October,2020
-218,3,1,4,Calgary Transit,Oct-20,3.50,October,2020
-219,3,1,2,Liquor Depot,Oct-20,45.00,October,2020
-220,3,1,2,Liquor Depot,Oct-20,47.00,October,2020
-221,3,1,3,Amazon,Oct-20,30.00,October,2020
-222,3,1,1,Costco,Oct-20,151.00,October,2020
-223,3,1,4,Calgary Transit,Oct-20,3.50,October,2020
-224,3,1,4,Petro Canada,Oct-20,50.00,October,2020
-225,3,1,3,Bed Bath & Beyond,Oct-20,112.00,October,2020
-226,3,1,5,LuluLemon,Oct-20,77.00,October,2020
-227,3,1,2,Liquor Depot,Oct-20,31.00,October,2020
-228,3,1,2,Liquor Depot,Oct-20,52.00,October,2020
-229,3,1,3,Amazon,Oct-20,21.00,October,2020
-230,3,1,3,Bed Bath & Beyond,Oct-20,66.00,October,2020
-231,3,1,6,Shoppers DrugMart Pharmacy,Oct-20,12.00,October,2020
-232,3,1,8,rent,Oct-20,1800.00,October,2020
-233,3,1,1,Costco,Sep-20,162.00,September,2020
-234,3,1,1,Uber Eats,Sep-20,16.65,September,2020
-235,3,1,4,Calgary Transit,Sep-20,3.50,September,2020
-236,3,1,1,Costco,Sep-20,79.00,September,2020
-237,3,1,1,Uber Eats,Sep-20,16.65,September,2020
-238,3,1,7,OneCycle,Sep-20,22.50,September,2020
-239,3,1,4,Petro Canada,Sep-20,56.00,September,2020
-240,3,1,6,Shoppers DrugMart Pharmacy,Sep-20,10.00,September,2020
-241,3,1,3,Wayfair,Sep-20,80.00,September,2020
-242,3,1,7,OneCycle,Sep-20,22.50,September,2020
-243,1,1,2,Liquor Depot,Sep-20,38.00,September,2020
-244,3,1,3,Wayfair,Sep-20,58.00,September,2020
-245,3,1,1,Whole Foods,Sep-20,224.00,September,2020
-246,3,1,1,Whole Foods,Sep-20,71.00,September,2020
-247,3,1,2,Liquor Depot,Sep-20,39.00,September,2020
-248,3,1,1,Whole Foods,Sep-20,98.00,September,2020
-249,3,1,2,Liquor Depot,Sep-20,22.00,September,2020
-250,1,1,1,Earls,Sep-20,68.00,September,2020
-251,1,1,1,Whole Foods,Sep-20,122.00,September,2020
-252,3,1,8,rent,Sep-20,1800.00,September,2020
-253,3,1,3,Amazon,Aug-20,36.00,August,2020
-254,3,1,4,Calgary Transit,Aug-20,3.50,August,2020
-255,3,1,1,Costco,Aug-20,97.00,August,2020
-256,1,1,3,Amazon,Aug-20,37.00,August,2020
-257,3,1,3,Bed Bath & Beyond,Aug-20,106.00,August,2020
-258,3,1,4,Petro Canada,Aug-20,50.00,August,2020
-259,3,1,4,Petro Canada,Aug-20,61.00,August,2020
-260,3,1,1,Earls,Aug-20,76.00,August,2020
-261,3,1,6,Shoppers DrugMart Pharmacy,Aug-20,6.00,August,2020
-262,3,1,7,OneCycle,Aug-20,22.50,August,2020
-263,3,1,7,OneCycle,Aug-20,22.50,August,2020
-264,1,1,4,Petro Canada,Aug-20,51.00,August,2020
-265,3,1,4,Petro Canada,Aug-20,58.00,August,2020
-266,3,1,4,Petro Canada,Aug-20,55.00,August,2020
-267,3,1,3,Bed Bath & Beyond,Aug-20,97.00,August,2020
-268,1,1,1,Earls,Aug-20,53.00,August,2020
-269,3,1,3,Amazon,Aug-20,28.00,August,2020
-270,1,1,1,Costco,Aug-20,83.00,August,2020
-271,3,1,2,Liquor Depot,Aug-20,39.00,August,2020
-272,1,1,1,Safeway,Aug-20,128.00,August,2020
-273,3,1,7,OneCycle,Aug-20,22.50,August,2020
-274,1,1,7,OneCycle,Aug-20,22.50,August,2020
-275,3,1,4,Petro Canada,Aug-20,62.00,August,2020
-276,3,1,4,Petro Canada,Aug-20,54.00,August,2020
-277,3,1,6,Shoppers DrugMart Pharmacy,Aug-20,14.00,August,2020
-278,3,1,7,OneCycle,Aug-20,22.50,August,2020
-279,3,1,5,LuluLemon,Aug-20,125.00,August,2020
-280,3,1,1,Costco,Aug-20,122.00,August,2020
-281,3,1,3,Amazon,Aug-20,50.00,August,2020
-282,3,1,6,Shoppers DrugMart Pharmacy,Aug-20,12.00,August,2020
-283,3,1,7,OneCycle,Aug-20,22.50,August,2020
-284,3,1,3,Amazon,Aug-20,28.00,August,2020
-285,3,1,4,Petro Canada,Aug-20,60.00,August,2020
-286,1,1,4,Petro Canada,Aug-20,57.00,August,2020
-287,3,1,1,Uber Eats,Aug-20,16.65,August,2020
-288,3,1,4,Petro Canada,Aug-20,62.00,August,2020
-289,3,1,5,LuluLemon,Aug-20,125.00,August,2020
-290,3,1,8,rent,Aug-20,1800.00,August,2020
-291,3,1,2,Liquor Depot,Jul-20,53.00,July,2020
-292,3,1,5,LuluLemon,Jul-20,75.00,July,2020
-293,1,1,1,Earls,Jul-20,41.00,July,2020
-294,3,1,4,Petro Canada,Jul-20,52.00,July,2020
-295,3,1,1,Costco,Jul-20,230.00,July,2020
-296,3,1,4,Petro Canada,Jul-20,61.00,July,2020
-297,1,1,7,OneCycle,Jul-20,22.50,July,2020
-298,3,1,7,OneCycle,Jul-20,22.50,July,2020
-299,1,1,4,Petro Canada,Jul-20,57.00,July,2020
-300,3,1,3,Bed Bath & Beyond,Jul-20,140.00,July,2020
-301,3,1,3,Bed Bath & Beyond,Jul-20,59.00,July,2020
-302,3,1,5,LuluLemon,Jul-20,87.00,July,2020
-303,3,1,5,LuluLemon,Jul-20,135.00,July,2020
-304,3,1,4,Petro Canada,Jul-20,61.00,July,2020
-305,3,1,2,Liquor Depot,Jul-20,35.00,July,2020
-306,3,1,4,Calgary Transit,Jul-20,3.50,July,2020
-307,3,1,4,Petro Canada,Jul-20,58.00,July,2020
-308,3,1,5,LuluLemon,Jul-20,80.00,July,2020
-309,1,1,4,Petro Canada,Jul-20,55.00,July,2020
-310,3,1,4,Petro Canada,Jul-20,63.00,July,2020
-311,3,1,1,Costco,Jul-20,123.00,July,2020
-312,3,1,3,Wayfair,Jul-20,86.00,July,2020
-313,3,1,5,LuluLemon,Jul-20,140.00,July,2020
-314,3,1,6,Shoppers DrugMart Pharmacy,Jul-20,11.00,July,2020
-315,3,1,7,OneCycle,Jul-20,22.50,July,2020
-316,3,1,3,Amazon,Jul-20,19.00,July,2020
-317,1,1,7,OneCycle,Jul-20,22.50,July,2020
-318,3,1,1,Costco,Jul-20,167.00,July,2020
-319,3,1,5,LuluLemon,Jul-20,75.00,July,2020
-320,3,1,4,Calgary Transit,Jul-20,3.50,July,2020
-321,3,1,6,Shoppers DrugMart Pharmacy,Jul-20,12.00,July,2020
-322,3,1,1,Costco,Jul-20,83.00,July,2020
-323,3,1,6,Shoppers DrugMart Pharmacy,Jul-20,8.00,July,2020
-324,3,1,2,Liquor Depot,Jul-20,29.00,July,2020
-325,3,1,7,OneCycle,Jul-20,22.50,July,2020
-326,1,1,7,OneCycle,Jul-20,22.50,July,2020
-327,3,1,4,Petro Canada,Jul-20,55.00,July,2020
-328,3,1,4,Calgary Transit,Jul-20,3.50,July,2020
-329,3,1,7,OneCycle,Jul-20,22.50,July,2020
-330,3,1,6,Shoppers DrugMart Pharmacy,Jul-20,11.00,July,2020
-331,3,1,1,Earls,Jul-20,77.00,July,2020
-332,1,1,4,Petro Canada,Jul-20,62.00,July,2020
-333,1,1,8,rent,Jul-20,1800.00,July,2020
-334,1,1,4,Petro Canada,Jun-20,53.00,June,2020
-335,3,1,6,Shoppers DrugMart Pharmacy,Jun-20,10.00,June,2020
-336,3,1,5,LuluLemon,Jun-20,124.00,June,2020
-337,1,1,5,LuluLemon,Jun-20,99.00,June,2020
-338,3,1,7,OneCycle,Jun-20,22.50,June,2020
-339,3,1,5,LuluLemon,Jun-20,88.00,June,2020
-340,3,1,5,LuluLemon,Jun-20,136.00,June,2020
-341,3,1,1,Costco,Jun-20,77.00,June,2020
-342,3,1,1,Whole Foods,Jun-20,31.00,June,2020
-343,3,1,3,Amazon,Jun-20,30.00,June,2020
-344,3,1,3,Bed Bath & Beyond,Jun-20,85.00,June,2020
-345,3,1,4,Petro Canada,Jun-20,62.00,June,2020
-346,3,1,6,Shoppers DrugMart Pharmacy,Jun-20,8.00,June,2020
-347,1,1,1,Uber Eats,Jun-20,21.75,June,2020
-348,1,1,4,Calgary Transit,Jun-20,3.50,June,2020
-349,3,1,1,Costco,Jun-20,135.00,June,2020
-350,3,1,5,LuluLemon,Jun-20,89.00,June,2020
-351,3,1,4,Calgary Transit,Jun-20,3.50,June,2020
-352,3,1,1,Whole Foods,Jun-20,235.00,June,2020
-353,1,1,4,Petro Canada,Jun-20,52.00,June,2020
-354,3,1,4,Petro Canada,Jun-20,60.00,June,2020
-355,1,1,5,LuluLemon,Jun-20,86.00,June,2020
-356,3,1,2,Liquor Depot,Jun-20,35.00,June,2020
-357,3,1,5,LuluLemon,Jun-20,141.00,June,2020
-358,3,1,3,Amazon,Jun-20,30.00,June,2020
-359,3,1,3,Amazon,Jun-20,15.00,June,2020
-360,3,1,2,Liquor Depot,Jun-20,35.00,June,2020
-361,3,1,3,Wayfair,Jun-20,57.00,June,2020
-362,3,1,4,Calgary Transit,Jun-20,3.50,June,2020
-363,3,1,7,OneCycle,Jun-20,22.50,June,2020
-364,3,1,4,Calgary Transit,Jun-20,3.50,June,2020
-365,3,1,3,Amazon,Jun-20,36.00,June,2020
-366,3,1,7,Kindle,Jun-20,28.00,June,2020
-367,3,1,8,rent,Jun-20,1800.00,June,2020
-368,3,1,6,Shoppers DrugMart Pharmacy,May-20,9.00,May,2020
-369,3,1,1,Uber Eats,May-20,21.75,May,2020
-370,3,1,1,Earls,May-20,70.00,May,2020
-371,3,1,2,Liquor Depot,May-20,53.00,May,2020
-372,3,1,2,Liquor Depot,May-20,39.00,May,2020
-373,3,1,5,LuluLemon,May-20,110.00,May,2020
-374,3,1,7,OneCycle,May-20,22.50,May,2020
-375,3,1,2,Liquor Depot,May-20,50.00,May,2020
-376,3,1,1,Uber Eats,May-20,21.75,May,2020
-377,3,1,4,Petro Canada,May-20,55.00,May,2020
-378,3,1,3,Wayfair,May-20,75.00,May,2020
-379,1,1,1,Costco,May-20,180.00,May,2020
-380,3,1,3,Bed Bath & Beyond,May-20,56.00,May,2020
-381,3,1,1,Whole Foods,May-20,124.00,May,2020
-382,3,1,4,Calgary Transit,May-20,3.50,May,2020
-383,3,1,7,OneCycle,May-20,22.50,May,2020
-384,3,1,7,OneCycle,May-20,22.50,May,2020
-385,3,1,1,Uber Eats,May-20,17.55,May,2020
-386,3,1,4,Petro Canada,May-20,58.00,May,2020
-387,1,1,1,Whole Foods,May-20,113.00,May,2020
-388,3,1,5,LuluLemon,May-20,142.00,May,2020
-389,3,1,4,Calgary Transit,May-20,3.50,May,2020
-390,3,1,1,Whole Foods,May-20,245.00,May,2020
-391,3,1,6,Shoppers DrugMart Pharmacy,May-20,13.00,May,2020
-392,1,1,1,Costco,May-20,119.00,May,2020
-393,3,1,2,Liquor Depot,May-20,53.00,May,2020
-394,3,1,1,Whole Foods,May-20,37.00,May,2020
-395,3,1,4,Petro Canada,May-20,64.00,May,2020
-396,3,1,3,Amazon,May-20,36.00,May,2020
-397,3,1,8,rent,May-20,1800.00,May,2020
-398,1,1,7,OneCycle,Apr-20,22.50,April,2020
-399,3,1,5,LuluLemon,Apr-20,80.00,April,2020
-400,3,1,3,Amazon,Apr-20,34.00,April,2020
-401,3,1,3,Bed Bath & Beyond,Apr-20,59.00,April,2020
-402,3,1,1,Safeway,Apr-20,117.00,April,2020
-403,3,1,1,Whole Foods,Apr-20,55.00,April,2020
-404,3,1,4,Calgary Transit,Apr-20,3.50,April,2020
-405,3,1,4,Petro Canada,Apr-20,63.00,April,2020
-406,3,1,6,Shoppers DrugMart Pharmacy,Apr-20,12.00,April,2020
-407,3,1,5,LuluLemon,Apr-20,102.00,April,2020
-408,3,1,4,Calgary Transit,Apr-20,3.50,April,2020
-409,3,1,7,OneCycle,Apr-20,22.50,April,2020
-410,3,1,3,Bed Bath & Beyond,Apr-20,92.00,April,2020
-411,3,1,2,Liquor Depot,Apr-20,45.00,April,2020
-412,1,1,4,Petro Canada,Apr-20,55.00,April,2020
-413,3,1,1,Whole Foods,Apr-20,22.00,April,2020
-414,3,1,3,Wayfair,Apr-20,53.00,April,2020
-415,1,1,3,Wayfair,Apr-20,76.00,April,2020
-416,1,1,3,Wayfair,Apr-20,80.00,April,2020
-417,3,1,2,Liquor Depot,Apr-20,24.00,April,2020
-418,3,1,2,Liquor Depot,Apr-20,33.00,April,2020
-419,3,1,5,LuluLemon,Apr-20,90.00,April,2020
-420,3,1,6,Shoppers DrugMart Pharmacy,Apr-20,5.00,April,2020
-421,1,1,5,LuluLemon,Apr-20,145.00,April,2020
-422,3,1,4,Petro Canada,Apr-20,61.00,April,2020
-423,3,1,4,Calgary Transit,Apr-20,3.50,April,2020
-424,3,1,4,Calgary Transit,Apr-20,3.50,April,2020
-425,3,1,7,OneCycle,Apr-20,22.50,April,2020
-426,1,1,1,Uber Eats,Apr-20,21.75,April,2020
-427,3,1,4,Petro Canada,Apr-20,58.00,April,2020
-428,3,1,1,Whole Foods,Apr-20,52.00,April,2020
-429,3,1,3,Amazon,Apr-20,40.00,April,2020
-430,3,1,2,Liquor Depot,Apr-20,37.00,April,2020
-431,1,1,5,LuluLemon,Apr-20,139.00,April,2020
-432,3,1,4,Calgary Transit,Apr-20,3.50,April,2020
-433,1,1,3,Bed Bath & Beyond,Apr-20,54.00,April,2020
-434,3,1,7,Kindle,Apr-20,41.00,April,2020
-435,3,1,1,Uber Eats,Apr-20,16.65,April,2020
-436,3,1,7,OneCycle,Apr-20,22.50,April,2020
-437,3,1,7,Kindle,Apr-20,25.00,April,2020
-438,3,1,4,Calgary Transit,Apr-20,3.50,April,2020
-439,3,1,3,Amazon,Apr-20,36.00,April,2020
-440,3,1,4,Petro Canada,Apr-20,62.00,April,2020
-441,3,1,3,Bed Bath & Beyond,Apr-20,119.00,April,2020
-442,3,1,5,LuluLemon,Apr-20,123.00,April,2020
-443,3,1,3,Wayfair,Apr-20,96.00,April,2020
-444,3,1,1,Earls,Apr-20,22.00,April,2020
-445,3,1,1,Costco,Apr-20,106.00,April,2020
-446,3,1,7,OneCycle,Apr-20,22.50,April,2020
-447,3,1,3,Amazon,Apr-20,17.00,April,2020
-448,3,1,3,Wayfair,Apr-20,91.00,April,2020
-449,3,1,2,Liquor Depot,Apr-20,26.00,April,2020
-450,3,1,3,Amazon,Apr-20,39.00,April,2020
-451,3,1,7,OneCycle,Apr-20,22.50,April,2020
-452,3,1,5,LuluLemon,Apr-20,87.00,April,2020
-453,3,1,3,Bed Bath & Beyond,Apr-20,76.00,April,2020
-454,3,1,8,rent,Apr-20,1800.00,April,2020
-455,3,1,1,Whole Foods,Apr-20,56.00,April,2020
-456,3,1,6,Shoppers DrugMart Pharmacy,Mar-20,6.00,March,2020
-457,3,1,3,Amazon,Mar-20,18.00,March,2020
-458,3,1,1,Costco,Mar-20,101.00,March,2020
-459,3,1,3,Bed Bath & Beyond,Mar-20,145.00,March,2020
-460,3,1,5,LuluLemon,Mar-20,145.00,March,2020
-461,3,1,2,Liquor Depot,Mar-20,55.00,March,2020
-462,3,1,1,Costco,Mar-20,164.00,March,2020
-463,3,1,1,Whole Foods,Mar-20,49.00,March,2020
-464,1,1,7,Kindle,Mar-20,25.00,March,2020
-465,3,1,2,Liquor Depot,Mar-20,50.00,March,2020
-466,3,1,1,Costco,Mar-20,161.00,March,2020
-467,1,1,7,OneCycle,Mar-20,22.50,March,2020
-468,3,1,1,Earls,Mar-20,82.00,March,2020
-469,3,1,5,LuluLemon,Mar-20,86.00,March,2020
-470,1,1,1,Costco,Mar-20,143.00,March,2020
-471,3,1,4,Petro Canada,Mar-20,57.00,March,2020
-472,3,1,7,OneCycle,Mar-20,22.50,March,2020
-473,3,1,3,Bed Bath & Beyond,Mar-20,73.00,March,2020
-474,3,1,3,Amazon,Mar-20,42.00,March,2020
-475,3,1,5,LuluLemon,Mar-20,77.00,March,2020
-476,3,1,6,Shoppers DrugMart Pharmacy,Mar-20,10.00,March,2020
-477,3,1,4,Petro Canada,Mar-20,64.00,March,2020
-478,3,1,3,Amazon,Mar-20,31.00,March,2020
-479,3,1,4,Petro Canada,Mar-20,63.00,March,2020
-480,3,1,1,Safeway,Mar-20,102.00,March,2020
-481,3,1,7,OneCycle,Mar-20,22.50,March,2020
-482,1,1,4,Calgary Transit,Mar-20,3.50,March,2020
-483,3,1,7,Kindle,Mar-20,37.00,March,2020
-484,3,1,6,Shoppers DrugMart Pharmacy,Mar-20,6.00,March,2020
-485,3,1,6,Shoppers DrugMart Pharmacy,Mar-20,9.00,March,2020
-486,3,1,6,Shoppers DrugMart Pharmacy,Mar-20,13.00,March,2020
-487,3,1,6,Shoppers DrugMart Pharmacy,Mar-20,9.00,March,2020
-488,3,1,7,OneCycle,Mar-20,22.50,March,2020
-489,3,1,4,Petro Canada,Mar-20,58.00,March,2020
-490,3,1,4,Petro Canada,Mar-20,60.00,March,2020
-491,3,1,2,Liquor Depot,Mar-20,29.00,March,2020
-492,3,1,1,Whole Foods,Mar-20,39.00,March,2020
-493,3,1,3,Bed Bath & Beyond,Mar-20,103.00,March,2020
-494,3,1,1,Whole Foods,Mar-20,98.00,March,2020
-495,3,1,6,Shoppers DrugMart Pharmacy,Mar-20,8.00,March,2020
-496,3,1,7,OneCycle,Mar-20,22.50,March,2020
-497,3,1,1,Whole Foods,Mar-20,57.00,March,2020
-498,1,1,4,Petro Canada,Mar-20,63.00,March,2020
-499,3,1,4,Calgary Transit,Mar-20,3.50,March,2020
-500,3,1,3,Bed Bath & Beyond,Mar-20,58.00,March,2020
-501,3,1,6,Shoppers DrugMart Pharmacy,Mar-20,9.00,March,2020
-502,3,1,7,OneCycle,Mar-20,22.50,March,2020
-503,3,1,2,Liquor Depot,Mar-20,43.00,March,2020
-504,3,1,5,LuluLemon,Mar-20,76.00,March,2020
-505,3,1,7,OneCycle,Mar-20,22.50,March,2020
-506,3,1,4,Petro Canada,Mar-20,51.00,March,2020
-507,1,1,7,Kindle,Mar-20,17.00,March,2020
-508,3,1,1,Earls,Mar-20,26.00,March,2020
-509,3,1,2,Liquor Depot,Mar-20,42.00,March,2020
-510,3,1,7,Kindle,Mar-20,39.00,March,2020
-511,3,1,1,Costco,Mar-20,150.00,March,2020
-512,3,1,3,Amazon,Mar-20,27.00,March,2020
-513,1,1,6,Shoppers DrugMart Pharmacy,Mar-20,10.00,March,2020
-514,3,1,1,Whole Foods,Mar-20,115.00,March,2020
-515,3,1,1,Uber Eats,Mar-20,16.65,March,2020
-516,3,1,3,Amazon,Mar-20,28.00,March,2020
-517,3,1,1,Whole Foods,Mar-20,80.00,March,2020
-518,3,1,4,Petro Canada,Mar-20,58.00,March,2020
-519,1,1,2,Liquor Depot,Mar-20,53.00,March,2020
-520,3,1,7,OneCycle,Mar-20,22.50,March,2020
-521,3,1,4,Petro Canada,Mar-20,55.00,March,2020
-522,3,1,2,Liquor Depot,Mar-20,36.00,March,2020
-523,3,1,1,Whole Foods,Mar-20,197.00,March,2020
-524,3,1,1,Whole Foods,Mar-20,21.00,March,2020
-525,1,1,2,Liquor Depot,Mar-20,55.00,March,2020
-526,3,1,7,Kindle,Mar-20,26.00,March,2020
-527,3,1,1,Uber Eats,Mar-20,16.65,March,2020
-528,3,1,7,OneCycle,Mar-20,22.50,March,2020
-529,3,1,5,LuluLemon,Mar-20,134.00,March,2020
-530,3,1,3,Wayfair,Mar-20,54.00,March,2020
-531,3,1,4,Calgary Transit,Mar-20,3.50,March,2020
-532,3,1,3,Amazon,Mar-20,48.00,March,2020
-533,3,1,7,Kindle,Mar-20,16.00,March,2020
-534,3,1,3,Bed Bath & Beyond,Mar-20,120.00,March,2020
-535,3,1,6,Shoppers DrugMart Pharmacy,Mar-20,10.00,March,2020
-536,3,1,8,rent,Mar-20,1800.00,March,2020
-537,3,1,3,Wayfair,Feb-20,76.00,February,2020
-538,3,1,3,Wayfair,Feb-20,80.00,February,2020
-539,3,1,7,Kindle,Feb-20,42.00,February,2020
-540,3,1,7,OneCycle,Feb-20,22.50,February,2020
-541,3,1,6,Shoppers DrugMart Pharmacy,Feb-20,5.00,February,2020
-542,3,1,2,Liquor Depot,Feb-20,27.00,February,2020
-543,3,1,7,OneCycle,Feb-20,22.50,February,2020
-544,3,1,7,OneCycle,Feb-20,22.50,February,2020
-545,3,1,7,OneCycle,Feb-20,22.50,February,2020
-546,3,1,1,Whole Foods,Feb-20,53.00,February,2020
-547,3,1,6,Shoppers DrugMart Pharmacy,Feb-20,5.00,February,2020
-548,3,1,6,Shoppers DrugMart Pharmacy,Feb-20,9.00,February,2020
-549,3,1,6,Shoppers DrugMart Pharmacy,Feb-20,14.00,February,2020
-550,3,1,1,Costco,Feb-20,93.00,February,2020
-551,1,1,4,Petro Canada,Feb-20,59.00,February,2020
-552,3,1,4,Petro Canada,Feb-20,53.00,February,2020
-553,3,1,4,Petro Canada,Feb-20,52.00,February,2020
-554,3,1,5,LuluLemon,Feb-20,80.00,February,2020
-555,1,1,1,Costco,Feb-20,111.00,February,2020
-556,3,1,2,Liquor Depot,Feb-20,36.00,February,2020
-557,3,1,3,Amazon,Feb-20,22.00,February,2020
-558,3,1,7,Kindle,Feb-20,28.00,February,2020
-559,3,1,3,Amazon,Feb-20,34.00,February,2020
-560,3,1,3,Amazon,Feb-20,28.00,February,2020
-561,3,1,1,Safeway,Feb-20,85.00,February,2020
-562,3,1,7,Kindle,Feb-20,23.00,February,2020
-563,3,1,2,Liquor Depot,Feb-20,48.00,February,2020
-564,1,1,4,Calgary Transit,Feb-20,3.50,February,2020
-565,3,1,1,Whole Foods,Feb-20,200.00,February,2020
-566,3,1,7,OneCycle,Feb-20,22.50,February,2020
-567,3,1,3,Bed Bath & Beyond,Feb-20,80.00,February,2020
-568,3,1,7,OneCycle,Feb-20,22.50,February,2020
-569,3,1,1,Costco,Feb-20,228.00,February,2020
-570,1,1,6,Shoppers DrugMart Pharmacy,Feb-20,15.00,February,2020
-571,3,1,7,OneCycle,Feb-20,22.50,February,2020
-572,3,1,1,Costco,Feb-20,225.00,February,2020
-573,3,1,2,Liquor Depot,Feb-20,49.00,February,2020
-574,3,1,4,Petro Canada,Feb-20,51.00,February,2020
-575,1,1,4,Calgary Transit,Feb-20,3.50,February,2020
-576,3,1,7,OneCycle,Feb-20,22.50,February,2020
-577,3,1,6,Shoppers DrugMart Pharmacy,Feb-20,5.00,February,2020
-578,3,1,4,Petro Canada,Feb-20,64.00,February,2020
-579,3,1,3,Wayfair,Feb-20,68.00,February,2020
-580,3,1,7,OneCycle,Feb-20,22.50,February,2020
-581,3,1,3,Bed Bath & Beyond,Feb-20,105.00,February,2020
-582,3,1,4,Petro Canada,Feb-20,56.00,February,2020
-583,3,1,4,Petro Canada,Feb-20,53.00,February,2020
-584,3,1,4,Petro Canada,Feb-20,53.00,February,2020
-585,3,1,5,LuluLemon,Feb-20,77.00,February,2020
-586,3,1,3,Amazon,Feb-20,16.00,February,2020
-587,3,1,8,rent,Feb-20,1800.00,February,2020
-588,3,1,1,Costco,Jan-20,182.00,January,2020
-589,3,1,5,LuluLemon,Jan-20,126.00,January,2020
-590,3,1,3,Amazon,Jan-20,18.00,January,2020
-591,3,1,5,LuluLemon,Jan-20,137.00,January,2020
-592,3,1,3,Bed Bath & Beyond,Jan-20,98.00,January,2020
-593,3,1,6,Shoppers DrugMart Pharmacy,Jan-20,12.00,January,2020
-594,3,1,3,Amazon,Jan-20,51.00,January,2020
-595,3,1,3,Bed Bath & Beyond,Jan-20,88.00,January,2020
-596,3,1,5,LuluLemon,Jan-20,119.00,January,2020
-597,3,1,4,Calgary Transit,Jan-20,3.50,January,2020
-598,3,1,4,Petro Canada,Jan-20,65.00,January,2020
-599,3,1,5,LuluLemon,Jan-20,85.00,January,2020
-600,3,1,4,Petro Canada,Jan-20,54.00,January,2020
-601,1,1,1,Costco,Jan-20,176.00,January,2020
-602,3,1,4,Calgary Transit,Jan-20,3.50,January,2020
-603,3,1,1,Earls,Jan-20,42.00,January,2020
-604,1,1,6,Shoppers DrugMart Pharmacy,Jan-20,8.00,January,2020
-605,3,1,3,Amazon,Jan-20,43.00,January,2020
-606,3,1,4,Petro Canada,Jan-20,56.00,January,2020
-607,3,1,4,Petro Canada,Jan-20,58.00,January,2020
-608,3,1,3,Wayfair,Jan-20,53.00,January,2020
-609,3,1,1,Costco,Jan-20,103.00,January,2020
-610,3,1,5,LuluLemon,Jan-20,150.00,January,2020
-611,3,1,7,Kindle,Jan-20,21.00,January,2020
-612,3,1,1,Whole Foods,Jan-20,97.00,January,2020
-613,3,1,2,Liquor Depot,Jan-20,23.00,January,2020
-614,3,1,8,rent,Jan-20,1800.00,January,2020
+id,user_account_details_id,user_id,category_id,description,date,amount,month,year
+1,3,1,1,Uber Eats,Jun-21,20.50,6,2021
+2,3,1,3,Amazon,Jun-21,34.00,6,2021
+3,3,1,3,Wayfair,Jun-21,92.00,6,2021
+4,3,1,7,OneCycle,Jun-21,22.50,6,2021
+5,3,1,3,Amazon,Jun-21,40.00,6,2021
+6,3,1,3,Amazon,Jun-21,40.00,6,2021
+7,3,1,5,LuluLemon,Jun-21,102.00,6,2021
+8,1,1,4,Petro Canada,Jun-21,59.00,6,2021
+9,3,1,5,LuluLemon,Jun-21,104.00,6,2021
+10,3,1,6,Shoppers DrugMart Pharmacy,Jun-21,11.00,6,2021
+11,3,1,1,Costco,Jun-21,110.00,6,2021
+12,3,1,3,Wayfair,Jun-21,67.00,6,2021
+13,3,1,1,Uber Eats,Jun-21,21.75,6,2021
+14,3,1,5,LuluLemon,Jun-21,107.00,6,2021
+15,3,1,4,Petro Canada,Jun-21,52.00,6,2021
+16,3,1,4,Petro Canada,Jun-21,52.00,6,2021
+17,3,1,2,Liquor Depot,Jun-21,21.00,6,2021
+18,3,1,1,Uber Eats,Jun-21,17.55,6,2021
+19,3,1,1,Whole Foods,Jun-21,167.00,6,2021
+20,3,1,1,Safeway,Jun-21,30.00,6,2021
+21,3,1,1,Costco,Jun-21,162.00,6,2021
+22,3,1,3,Bed Bath & Beyond,Jun-21,74.00,6,2021
+23,3,1,1,Earls,Jun-21,21.00,6,2021
+24,3,1,3,Bed Bath & Beyond,Jun-21,108.00,6,2021
+25,3,1,3,Amazon,Jun-21,47.00,6,2021
+26,3,1,4,Petro Canada,Jun-21,56.00,6,2021
+27,1,1,2,Liquor Depot,Jun-21,47.00,6,2021
+28,3,1,5,LuluLemon,Jun-21,131.00,6,2021
+29,3,1,7,OneCycle,Jun-21,22.50,6,2021
+30,3,1,5,LuluLemon,Jun-21,81.00,6,2021
+31,3,1,6,Shoppers DrugMart Pharmacy,Jun-21,7.00,6,2021
+32,3,1,4,Petro Canada,Jun-21,60.00,6,2021
+33,3,1,8,rent,Jun-21,1800.00,6,2021
+34,3,1,7,Kindle,May-21,18.00,5,2021
+35,3,1,1,Whole Foods,May-21,172.00,5,2021
+36,3,1,1,Costco,May-21,81.00,5,2021
+37,1,1,1,Whole Foods,May-21,167.00,5,2021
+38,3,1,3,Wayfair,May-21,94.00,5,2021
+39,3,1,1,Safeway,May-21,114.00,5,2021
+40,1,1,7,OneCycle,May-21,22.50,5,2021
+41,3,1,1,Costco,May-21,171.00,5,2021
+42,3,1,4,Calgary Transit,May-21,3.50,5,2021
+43,3,1,4,Calgary Transit,May-21,3.50,5,2021
+44,3,1,1,Whole Foods,May-21,236.00,5,2021
+45,3,1,5,LuluLemon,May-21,93.00,5,2021
+46,3,1,6,Shoppers DrugMart Pharmacy,May-21,14.00,5,2021
+47,3,1,7,OneCycle,May-21,22.50,5,2021
+48,3,1,4,Petro Canada,May-21,56.00,5,2021
+49,3,1,6,Shoppers DrugMart Pharmacy,May-21,15.00,5,2021
+50,1,1,3,Amazon,May-21,26.00,5,2021
+51,3,1,7,OneCycle,May-21,22.50,5,2021
+52,1,1,3,Bed Bath & Beyond,May-21,142.00,5,2021
+53,3,1,1,Earls,May-21,56.00,5,2021
+54,3,1,4,Petro Canada,May-21,60.00,5,2021
+55,3,1,2,Liquor Depot,May-21,21.00,5,2021
+56,1,1,7,OneCycle,May-21,22.50,5,2021
+57,1,1,7,Kindle,May-21,36.00,5,2021
+58,3,1,4,Calgary Transit,May-21,3.50,5,2021
+59,3,1,1,Costco,May-21,189.00,5,2021
+60,3,1,1,Costco,May-21,82.00,5,2021
+61,3,1,7,Kindle,May-21,26.00,5,2021
+62,3,1,8,rent,May-21,1800.00,5,2021
+63,3,1,7,Kindle,Apr-21,37.00,4,2021
+64,3,1,2,Liquor Depot,Apr-21,21.00,4,2021
+65,3,1,2,Liquor Depot,Apr-21,36.00,4,2021
+66,3,1,7,Kindle,Apr-21,32.00,4,2021
+67,3,1,6,Shoppers DrugMart Pharmacy,Apr-21,12.00,4,2021
+68,3,1,3,Amazon,Apr-21,22.00,4,2021
+69,3,1,5,LuluLemon,Apr-21,144.00,4,2021
+70,1,1,4,Petro Canada,Apr-21,59.00,4,2021
+71,1,1,3,Wayfair,Apr-21,90.00,4,2021
+72,3,1,6,Shoppers DrugMart Pharmacy,Apr-21,7.00,4,2021
+73,1,1,7,OneCycle,Apr-21,22.50,4,2021
+74,3,1,2,Liquor Depot,Apr-21,51.00,4,2021
+75,1,1,2,Liquor Depot,Apr-21,44.00,4,2021
+76,3,1,1,Earls,Apr-21,22.00,4,2021
+77,1,1,4,Petro Canada,Apr-21,53.00,4,2021
+78,3,1,4,Calgary Transit,Apr-21,3.50,4,2021
+79,3,1,3,Bed Bath & Beyond,Apr-21,52.00,4,2021
+80,3,1,3,Wayfair,Apr-21,68.00,4,2021
+81,3,1,7,OneCycle,Apr-21,22.50,4,2021
+82,3,1,5,LuluLemon,Apr-21,106.00,4,2021
+83,3,1,3,Amazon,Apr-21,37.00,4,2021
+84,3,1,7,Kindle,Apr-21,23.00,4,2021
+85,3,1,5,LuluLemon,Apr-21,133.00,4,2021
+86,3,1,1,Uber Eats,Apr-21,21.75,4,2021
+87,3,1,7,OneCycle,Apr-21,22.50,4,2021
+88,3,1,1,Whole Foods,Apr-21,141.00,4,2021
+89,3,1,8,rent,Apr-21,1800.00,4,2021
+90,3,1,2,Liquor Depot,Apr-21,36.00,4,2021
+91,3,1,7,OneCycle,Mar-21,22.50,3,2021
+92,3,1,6,Shoppers DrugMart Pharmacy,Mar-21,11.00,3,2021
+93,3,1,2,Liquor Depot,Mar-21,47.00,3,2021
+94,3,1,4,Calgary Transit,Mar-21,3.50,3,2021
+95,3,1,5,LuluLemon,Mar-21,121.00,3,2021
+96,3,1,1,Whole Foods,Mar-21,40.00,3,2021
+97,3,1,1,Uber Eats,Mar-21,16.65,3,2021
+98,3,1,5,LuluLemon,Mar-21,104.00,3,2021
+99,3,1,6,Shoppers DrugMart Pharmacy,Mar-21,14.00,3,2021
+100,3,1,4,Calgary Transit,Mar-21,3.50,3,2021
+101,1,1,7,Kindle,Mar-21,34.00,3,2021
+102,3,1,6,Shoppers DrugMart Pharmacy,Mar-21,13.00,3,2021
+103,3,1,1,Earls,Mar-21,44.00,3,2021
+104,3,1,3,Wayfair,Mar-21,72.00,3,2021
+105,3,1,2,Liquor Depot,Mar-21,49.00,3,2021
+106,3,1,3,Amazon,Mar-21,33.00,3,2021
+107,3,1,1,Earls,Mar-21,73.00,3,2021
+108,3,1,4,Petro Canada,Mar-21,56.00,3,2021
+109,3,1,2,Liquor Depot,Mar-21,40.00,3,2021
+110,3,1,8,rent,Mar-21,1800.00,3,2021
+111,3,1,4,Petro Canada,Feb-21,61.00,2,2021
+112,3,1,7,Kindle,Feb-21,24.00,2,2021
+113,3,1,2,Liquor Depot,Feb-21,44.00,2,2021
+114,3,1,5,LuluLemon,Feb-21,98.00,2,2021
+115,3,1,7,OneCycle,Feb-21,22.50,2,2021
+116,3,1,3,Bed Bath & Beyond,Feb-21,84.00,2,2021
+117,3,1,1,Earls,Feb-21,44.00,2,2021
+118,3,1,4,Petro Canada,Feb-21,55.00,2,2021
+119,3,1,4,Petro Canada,Feb-21,65.00,2,2021
+120,3,1,2,Liquor Depot,Feb-21,39.00,2,2021
+121,3,1,1,Earls,Feb-21,34.00,2,2021
+122,3,1,3,Bed Bath & Beyond,Feb-21,61.00,2,2021
+123,3,1,5,LuluLemon,Feb-21,123.00,2,2021
+124,3,1,1,Uber Eats,Feb-21,17.55,2,2021
+125,3,1,4,Calgary Transit,Feb-21,3.50,2,2021
+126,3,1,4,Petro Canada,Feb-21,50.00,2,2021
+127,3,1,3,Bed Bath & Beyond,Feb-21,65.00,2,2021
+128,3,1,7,OneCycle,Feb-21,22.50,2,2021
+129,3,1,5,LuluLemon,Feb-21,91.00,2,2021
+130,3,1,1,Whole Foods,Feb-21,225.00,2,2021
+131,3,1,4,Calgary Transit,Feb-21,3.50,2,2021
+132,3,1,6,Shoppers DrugMart Pharmacy,Feb-21,10.00,2,2021
+133,3,1,3,Bed Bath & Beyond,Feb-21,52.00,2,2021
+134,3,1,7,OneCycle,Feb-21,22.50,2,2021
+135,3,1,8,rent,Feb-21,1800.00,2,2021
+136,3,1,1,Uber Eats,Jan-21,16.65,1,2021
+137,3,1,5,LuluLemon,Jan-21,85.00,1,2021
+138,1,1,2,Liquor Depot,Jan-21,51.00,1,2021
+139,3,1,3,Amazon,Jan-21,15.00,1,2021
+140,3,1,2,Liquor Depot,Jan-21,26.00,1,2021
+141,3,1,1,Whole Foods,Jan-21,138.00,1,2021
+142,1,1,5,LuluLemon,Jan-21,77.00,1,2021
+143,3,1,7,OneCycle,Jan-21,22.50,1,2021
+144,1,1,3,Bed Bath & Beyond,Jan-21,104.00,1,2021
+145,1,1,6,Shoppers DrugMart Pharmacy,Jan-21,15.00,1,2021
+146,3,1,4,Petro Canada,Jan-21,64.00,1,2021
+147,1,1,2,Liquor Depot,Jan-21,30.00,1,2021
+148,3,1,4,Calgary Transit,Jan-21,3.50,1,2021
+149,3,1,1,Costco,Jan-21,139.00,1,2021
+150,3,1,6,Shoppers DrugMart Pharmacy,Jan-21,6.00,1,2021
+151,3,1,3,Amazon,Jan-21,17.00,1,2021
+152,3,1,2,Liquor Depot,Jan-21,39.00,1,2021
+153,3,1,2,Liquor Depot,Jan-21,30.00,1,2021
+154,3,1,7,Kindle,Jan-21,25.00,1,2021
+155,3,1,6,Shoppers DrugMart Pharmacy,Jan-21,15.00,1,2021
+156,3,1,8,rent,Jan-21,1800.00,1,2021
+157,3,1,5,LuluLemon,Jan-21,127.00,1,2021
+158,3,1,4,Petro Canada,Dec-20,55.00,12,2020
+159,3,1,4,Calgary Transit,Dec-20,3.50,12,2020
+160,3,1,3,Wayfair,Dec-20,54.00,12,2020
+161,3,1,5,LuluLemon,Dec-20,107.00,12,2020
+162,3,1,4,Calgary Transit,Dec-20,3.50,12,2020
+163,3,1,7,Kindle,Dec-20,20.00,12,2020
+164,3,1,3,Wayfair,Dec-20,82.00,12,2020
+165,1,1,3,Bed Bath & Beyond,Dec-20,67.00,12,2020
+166,1,1,5,LuluLemon,Dec-20,124.00,12,2020
+167,3,1,7,Kindle,Dec-20,41.00,12,2020
+168,3,1,1,Uber Eats,Dec-20,21.75,12,2020
+169,3,1,3,Bed Bath & Beyond,Dec-20,79.00,12,2020
+170,3,1,7,OneCycle,Dec-20,22.50,12,2020
+171,3,1,1,Earls,Dec-20,45.00,12,2020
+172,3,1,2,Liquor Depot,Dec-20,26.00,12,2020
+173,3,1,1,Earls,Dec-20,68.00,12,2020
+174,3,1,1,Earls,Dec-20,44.00,12,2020
+175,3,1,2,Liquor Depot,Dec-20,51.00,12,2020
+176,3,1,5,LuluLemon,Dec-20,137.00,12,2020
+177,3,1,1,Uber Eats,Dec-20,17.55,12,2020
+178,1,1,3,Amazon,Dec-20,45.00,12,2020
+179,3,1,1,Whole Foods,Dec-20,181.00,12,2020
+180,3,1,1,Costco,Dec-20,249.00,12,2020
+181,3,1,2,Liquor Depot,Dec-20,21.00,12,2020
+182,3,1,3,Wayfair,Dec-20,66.00,12,2020
+183,3,1,8,rent,Dec-20,1800.00,12,2020
+184,3,1,4,Calgary Transit,Dec-20,3.50,12,2020
+185,1,1,1,Costco,Nov-20,82.00,11,2020
+186,3,1,7,Kindle,Nov-20,33.00,11,2020
+187,3,1,5,LuluLemon,Nov-20,109.00,11,2020
+188,3,1,5,LuluLemon,Nov-20,133.00,11,2020
+189,3,1,4,Calgary Transit,Nov-20,3.50,11,2020
+190,3,1,2,Liquor Depot,Nov-20,36.00,11,2020
+191,3,1,1,Earls,Nov-20,59.00,11,2020
+192,3,1,7,Kindle,Nov-20,40.00,11,2020
+193,1,1,7,OneCycle,Nov-20,22.50,11,2020
+194,3,1,2,Liquor Depot,Nov-20,54.00,11,2020
+195,3,1,1,Uber Eats,Nov-20,21.75,11,2020
+196,3,1,1,Whole Foods,Nov-20,29.00,11,2020
+197,3,1,7,Kindle,Nov-20,41.00,11,2020
+198,3,1,2,Liquor Depot,Nov-20,46.00,11,2020
+199,3,1,1,Whole Foods,Nov-20,106.00,11,2020
+200,3,1,6,Shoppers DrugMart Pharmacy,Nov-20,6.00,11,2020
+201,3,1,7,Kindle,Nov-20,28.00,11,2020
+202,3,1,2,Liquor Depot,Nov-20,41.00,11,2020
+203,3,1,1,Costco,Nov-20,90.00,11,2020
+204,1,1,4,Calgary Transit,Nov-20,3.50,11,2020
+205,3,1,2,Liquor Depot,Nov-20,53.00,11,2020
+206,3,1,5,LuluLemon,Nov-20,76.00,11,2020
+207,3,1,4,Calgary Transit,Nov-20,3.50,11,2020
+208,3,1,8,rent,Nov-20,1800.00,11,2020
+209,3,1,4,Petro Canada,Oct-20,61.00,10,2020
+210,1,1,4,Petro Canada,Oct-20,61.00,10,2020
+211,3,1,4,Calgary Transit,Oct-20,3.50,10,2020
+212,3,1,3,Bed Bath & Beyond,Oct-20,79.00,10,2020
+213,1,1,4,Petro Canada,Oct-20,61.00,10,2020
+214,1,1,1,Whole Foods,Oct-20,29.00,10,2020
+215,3,1,7,OneCycle,Oct-20,22.50,10,2020
+216,3,1,1,Whole Foods,Oct-20,207.00,10,2020
+217,3,1,4,Petro Canada,Oct-20,56.00,10,2020
+218,3,1,4,Calgary Transit,Oct-20,3.50,10,2020
+219,3,1,2,Liquor Depot,Oct-20,45.00,10,2020
+220,3,1,2,Liquor Depot,Oct-20,47.00,10,2020
+221,3,1,3,Amazon,Oct-20,30.00,10,2020
+222,3,1,1,Costco,Oct-20,151.00,10,2020
+223,3,1,4,Calgary Transit,Oct-20,3.50,10,2020
+224,3,1,4,Petro Canada,Oct-20,50.00,10,2020
+225,3,1,3,Bed Bath & Beyond,Oct-20,112.00,10,2020
+226,3,1,5,LuluLemon,Oct-20,77.00,10,2020
+227,3,1,2,Liquor Depot,Oct-20,31.00,10,2020
+228,3,1,2,Liquor Depot,Oct-20,52.00,10,2020
+229,3,1,3,Amazon,Oct-20,21.00,10,2020
+230,3,1,3,Bed Bath & Beyond,Oct-20,66.00,10,2020
+231,3,1,6,Shoppers DrugMart Pharmacy,Oct-20,12.00,10,2020
+232,3,1,8,rent,Oct-20,1800.00,10,2020
+233,3,1,1,Costco,Sep-20,162.00,9,2020
+234,3,1,1,Uber Eats,Sep-20,16.65,9,2020
+235,3,1,4,Calgary Transit,Sep-20,3.50,9,2020
+236,3,1,1,Costco,Sep-20,79.00,9,2020
+237,3,1,1,Uber Eats,Sep-20,16.65,9,2020
+238,3,1,7,OneCycle,Sep-20,22.50,9,2020
+239,3,1,4,Petro Canada,Sep-20,56.00,9,2020
+240,3,1,6,Shoppers DrugMart Pharmacy,Sep-20,10.00,9,2020
+241,3,1,3,Wayfair,Sep-20,80.00,9,2020
+242,3,1,7,OneCycle,Sep-20,22.50,9,2020
+243,1,1,2,Liquor Depot,Sep-20,38.00,9,2020
+244,3,1,3,Wayfair,Sep-20,58.00,9,2020
+245,3,1,1,Whole Foods,Sep-20,224.00,9,2020
+246,3,1,1,Whole Foods,Sep-20,71.00,9,2020
+247,3,1,2,Liquor Depot,Sep-20,39.00,9,2020
+248,3,1,1,Whole Foods,Sep-20,98.00,9,2020
+249,3,1,2,Liquor Depot,Sep-20,22.00,9,2020
+250,1,1,1,Earls,Sep-20,68.00,9,2020
+251,1,1,1,Whole Foods,Sep-20,122.00,9,2020
+252,3,1,8,rent,Sep-20,1800.00,9,2020
+253,3,1,3,Amazon,Aug-20,36.00,8,2020
+254,3,1,4,Calgary Transit,Aug-20,3.50,8,2020
+255,3,1,1,Costco,Aug-20,97.00,8,2020
+256,1,1,3,Amazon,Aug-20,37.00,8,2020
+257,3,1,3,Bed Bath & Beyond,Aug-20,106.00,8,2020
+258,3,1,4,Petro Canada,Aug-20,50.00,8,2020
+259,3,1,4,Petro Canada,Aug-20,61.00,8,2020
+260,3,1,1,Earls,Aug-20,76.00,8,2020
+261,3,1,6,Shoppers DrugMart Pharmacy,Aug-20,6.00,8,2020
+262,3,1,7,OneCycle,Aug-20,22.50,8,2020
+263,3,1,7,OneCycle,Aug-20,22.50,8,2020
+264,1,1,4,Petro Canada,Aug-20,51.00,8,2020
+265,3,1,4,Petro Canada,Aug-20,58.00,8,2020
+266,3,1,4,Petro Canada,Aug-20,55.00,8,2020
+267,3,1,3,Bed Bath & Beyond,Aug-20,97.00,8,2020
+268,1,1,1,Earls,Aug-20,53.00,8,2020
+269,3,1,3,Amazon,Aug-20,28.00,8,2020
+270,1,1,1,Costco,Aug-20,83.00,8,2020
+271,3,1,2,Liquor Depot,Aug-20,39.00,8,2020
+272,1,1,1,Safeway,Aug-20,128.00,8,2020
+273,3,1,7,OneCycle,Aug-20,22.50,8,2020
+274,1,1,7,OneCycle,Aug-20,22.50,8,2020
+275,3,1,4,Petro Canada,Aug-20,62.00,8,2020
+276,3,1,4,Petro Canada,Aug-20,54.00,8,2020
+277,3,1,6,Shoppers DrugMart Pharmacy,Aug-20,14.00,8,2020
+278,3,1,7,OneCycle,Aug-20,22.50,8,2020
+279,3,1,5,LuluLemon,Aug-20,125.00,8,2020
+280,3,1,1,Costco,Aug-20,122.00,8,2020
+281,3,1,3,Amazon,Aug-20,50.00,8,2020
+282,3,1,6,Shoppers DrugMart Pharmacy,Aug-20,12.00,8,2020
+283,3,1,7,OneCycle,Aug-20,22.50,8,2020
+284,3,1,3,Amazon,Aug-20,28.00,8,2020
+285,3,1,4,Petro Canada,Aug-20,60.00,8,2020
+286,1,1,4,Petro Canada,Aug-20,57.00,8,2020
+287,3,1,1,Uber Eats,Aug-20,16.65,8,2020
+288,3,1,4,Petro Canada,Aug-20,62.00,8,2020
+289,3,1,5,LuluLemon,Aug-20,125.00,8,2020
+290,3,1,8,rent,Aug-20,1800.00,8,2020
+291,3,1,2,Liquor Depot,Jul-20,53.00,7,2020
+292,3,1,5,LuluLemon,Jul-20,75.00,7,2020
+293,1,1,1,Earls,Jul-20,41.00,7,2020
+294,3,1,4,Petro Canada,Jul-20,52.00,7,2020
+295,3,1,1,Costco,Jul-20,230.00,7,2020
+296,3,1,4,Petro Canada,Jul-20,61.00,7,2020
+297,1,1,7,OneCycle,Jul-20,22.50,7,2020
+298,3,1,7,OneCycle,Jul-20,22.50,7,2020
+299,1,1,4,Petro Canada,Jul-20,57.00,7,2020
+300,3,1,3,Bed Bath & Beyond,Jul-20,140.00,7,2020
+301,3,1,3,Bed Bath & Beyond,Jul-20,59.00,7,2020
+302,3,1,5,LuluLemon,Jul-20,87.00,7,2020
+303,3,1,5,LuluLemon,Jul-20,135.00,7,2020
+304,3,1,4,Petro Canada,Jul-20,61.00,7,2020
+305,3,1,2,Liquor Depot,Jul-20,35.00,7,2020
+306,3,1,4,Calgary Transit,Jul-20,3.50,7,2020
+307,3,1,4,Petro Canada,Jul-20,58.00,7,2020
+308,3,1,5,LuluLemon,Jul-20,80.00,7,2020
+309,1,1,4,Petro Canada,Jul-20,55.00,7,2020
+310,3,1,4,Petro Canada,Jul-20,63.00,7,2020
+311,3,1,1,Costco,Jul-20,123.00,7,2020
+312,3,1,3,Wayfair,Jul-20,86.00,7,2020
+313,3,1,5,LuluLemon,Jul-20,140.00,7,2020
+314,3,1,6,Shoppers DrugMart Pharmacy,Jul-20,11.00,7,2020
+315,3,1,7,OneCycle,Jul-20,22.50,7,2020
+316,3,1,3,Amazon,Jul-20,19.00,7,2020
+317,1,1,7,OneCycle,Jul-20,22.50,7,2020
+318,3,1,1,Costco,Jul-20,167.00,7,2020
+319,3,1,5,LuluLemon,Jul-20,75.00,7,2020
+320,3,1,4,Calgary Transit,Jul-20,3.50,7,2020
+321,3,1,6,Shoppers DrugMart Pharmacy,Jul-20,12.00,7,2020
+322,3,1,1,Costco,Jul-20,83.00,7,2020
+323,3,1,6,Shoppers DrugMart Pharmacy,Jul-20,8.00,7,2020
+324,3,1,2,Liquor Depot,Jul-20,29.00,7,2020
+325,3,1,7,OneCycle,Jul-20,22.50,7,2020
+326,1,1,7,OneCycle,Jul-20,22.50,7,2020
+327,3,1,4,Petro Canada,Jul-20,55.00,7,2020
+328,3,1,4,Calgary Transit,Jul-20,3.50,7,2020
+329,3,1,7,OneCycle,Jul-20,22.50,7,2020
+330,3,1,6,Shoppers DrugMart Pharmacy,Jul-20,11.00,7,2020
+331,3,1,1,Earls,Jul-20,77.00,7,2020
+332,1,1,4,Petro Canada,Jul-20,62.00,7,2020
+333,1,1,8,rent,Jul-20,1800.00,7,2020
+334,1,1,4,Petro Canada,Jun-20,53.00,6,2020
+335,3,1,6,Shoppers DrugMart Pharmacy,Jun-20,10.00,6,2020
+336,3,1,5,LuluLemon,Jun-20,124.00,6,2020
+337,1,1,5,LuluLemon,Jun-20,99.00,6,2020
+338,3,1,7,OneCycle,Jun-20,22.50,6,2020
+339,3,1,5,LuluLemon,Jun-20,88.00,6,2020
+340,3,1,5,LuluLemon,Jun-20,136.00,6,2020
+341,3,1,1,Costco,Jun-20,77.00,6,2020
+342,3,1,1,Whole Foods,Jun-20,31.00,6,2020
+343,3,1,3,Amazon,Jun-20,30.00,6,2020
+344,3,1,3,Bed Bath & Beyond,Jun-20,85.00,6,2020
+345,3,1,4,Petro Canada,Jun-20,62.00,6,2020
+346,3,1,6,Shoppers DrugMart Pharmacy,Jun-20,8.00,6,2020
+347,1,1,1,Uber Eats,Jun-20,21.75,6,2020
+348,1,1,4,Calgary Transit,Jun-20,3.50,6,2020
+349,3,1,1,Costco,Jun-20,135.00,6,2020
+350,3,1,5,LuluLemon,Jun-20,89.00,6,2020
+351,3,1,4,Calgary Transit,Jun-20,3.50,6,2020
+352,3,1,1,Whole Foods,Jun-20,235.00,6,2020
+353,1,1,4,Petro Canada,Jun-20,52.00,6,2020
+354,3,1,4,Petro Canada,Jun-20,60.00,6,2020
+355,1,1,5,LuluLemon,Jun-20,86.00,6,2020
+356,3,1,2,Liquor Depot,Jun-20,35.00,6,2020
+357,3,1,5,LuluLemon,Jun-20,141.00,6,2020
+358,3,1,3,Amazon,Jun-20,30.00,6,2020
+359,3,1,3,Amazon,Jun-20,15.00,6,2020
+360,3,1,2,Liquor Depot,Jun-20,35.00,6,2020
+361,3,1,3,Wayfair,Jun-20,57.00,6,2020
+362,3,1,4,Calgary Transit,Jun-20,3.50,6,2020
+363,3,1,7,OneCycle,Jun-20,22.50,6,2020
+364,3,1,4,Calgary Transit,Jun-20,3.50,6,2020
+365,3,1,3,Amazon,Jun-20,36.00,6,2020
+366,3,1,7,Kindle,Jun-20,28.00,6,2020
+367,3,1,8,rent,Jun-20,1800.00,6,2020
+368,3,1,6,Shoppers DrugMart Pharmacy,May-20,9.00,5,2020
+369,3,1,1,Uber Eats,May-20,21.75,5,2020
+370,3,1,1,Earls,May-20,70.00,5,2020
+371,3,1,2,Liquor Depot,May-20,53.00,5,2020
+372,3,1,2,Liquor Depot,May-20,39.00,5,2020
+373,3,1,5,LuluLemon,May-20,110.00,5,2020
+374,3,1,7,OneCycle,May-20,22.50,5,2020
+375,3,1,2,Liquor Depot,May-20,50.00,5,2020
+376,3,1,1,Uber Eats,May-20,21.75,5,2020
+377,3,1,4,Petro Canada,May-20,55.00,5,2020
+378,3,1,3,Wayfair,May-20,75.00,5,2020
+379,1,1,1,Costco,May-20,180.00,5,2020
+380,3,1,3,Bed Bath & Beyond,May-20,56.00,5,2020
+381,3,1,1,Whole Foods,May-20,124.00,5,2020
+382,3,1,4,Calgary Transit,May-20,3.50,5,2020
+383,3,1,7,OneCycle,May-20,22.50,5,2020
+384,3,1,7,OneCycle,May-20,22.50,5,2020
+385,3,1,1,Uber Eats,May-20,17.55,5,2020
+386,3,1,4,Petro Canada,May-20,58.00,5,2020
+387,1,1,1,Whole Foods,May-20,113.00,5,2020
+388,3,1,5,LuluLemon,May-20,142.00,5,2020
+389,3,1,4,Calgary Transit,May-20,3.50,5,2020
+390,3,1,1,Whole Foods,May-20,245.00,5,2020
+391,3,1,6,Shoppers DrugMart Pharmacy,May-20,13.00,5,2020
+392,1,1,1,Costco,May-20,119.00,5,2020
+393,3,1,2,Liquor Depot,May-20,53.00,5,2020
+394,3,1,1,Whole Foods,May-20,37.00,5,2020
+395,3,1,4,Petro Canada,May-20,64.00,5,2020
+396,3,1,3,Amazon,May-20,36.00,5,2020
+397,3,1,8,rent,May-20,1800.00,5,2020
+398,1,1,7,OneCycle,Apr-20,22.50,4,2020
+399,3,1,5,LuluLemon,Apr-20,80.00,4,2020
+400,3,1,3,Amazon,Apr-20,34.00,4,2020
+401,3,1,3,Bed Bath & Beyond,Apr-20,59.00,4,2020
+402,3,1,1,Safeway,Apr-20,117.00,4,2020
+403,3,1,1,Whole Foods,Apr-20,55.00,4,2020
+404,3,1,4,Calgary Transit,Apr-20,3.50,4,2020
+405,3,1,4,Petro Canada,Apr-20,63.00,4,2020
+406,3,1,6,Shoppers DrugMart Pharmacy,Apr-20,12.00,4,2020
+407,3,1,5,LuluLemon,Apr-20,102.00,4,2020
+408,3,1,4,Calgary Transit,Apr-20,3.50,4,2020
+409,3,1,7,OneCycle,Apr-20,22.50,4,2020
+410,3,1,3,Bed Bath & Beyond,Apr-20,92.00,4,2020
+411,3,1,2,Liquor Depot,Apr-20,45.00,4,2020
+412,1,1,4,Petro Canada,Apr-20,55.00,4,2020
+413,3,1,1,Whole Foods,Apr-20,22.00,4,2020
+414,3,1,3,Wayfair,Apr-20,53.00,4,2020
+415,1,1,3,Wayfair,Apr-20,76.00,4,2020
+416,1,1,3,Wayfair,Apr-20,80.00,4,2020
+417,3,1,2,Liquor Depot,Apr-20,24.00,4,2020
+418,3,1,2,Liquor Depot,Apr-20,33.00,4,2020
+419,3,1,5,LuluLemon,Apr-20,90.00,4,2020
+420,3,1,6,Shoppers DrugMart Pharmacy,Apr-20,5.00,4,2020
+421,1,1,5,LuluLemon,Apr-20,145.00,4,2020
+422,3,1,4,Petro Canada,Apr-20,61.00,4,2020
+423,3,1,4,Calgary Transit,Apr-20,3.50,4,2020
+424,3,1,4,Calgary Transit,Apr-20,3.50,4,2020
+425,3,1,7,OneCycle,Apr-20,22.50,4,2020
+426,1,1,1,Uber Eats,Apr-20,21.75,4,2020
+427,3,1,4,Petro Canada,Apr-20,58.00,4,2020
+428,3,1,1,Whole Foods,Apr-20,52.00,4,2020
+429,3,1,3,Amazon,Apr-20,40.00,4,2020
+430,3,1,2,Liquor Depot,Apr-20,37.00,4,2020
+431,1,1,5,LuluLemon,Apr-20,139.00,4,2020
+432,3,1,4,Calgary Transit,Apr-20,3.50,4,2020
+433,1,1,3,Bed Bath & Beyond,Apr-20,54.00,4,2020
+434,3,1,7,Kindle,Apr-20,41.00,4,2020
+435,3,1,1,Uber Eats,Apr-20,16.65,4,2020
+436,3,1,7,OneCycle,Apr-20,22.50,4,2020
+437,3,1,7,Kindle,Apr-20,25.00,4,2020
+438,3,1,4,Calgary Transit,Apr-20,3.50,4,2020
+439,3,1,3,Amazon,Apr-20,36.00,4,2020
+440,3,1,4,Petro Canada,Apr-20,62.00,4,2020
+441,3,1,3,Bed Bath & Beyond,Apr-20,119.00,4,2020
+442,3,1,5,LuluLemon,Apr-20,123.00,4,2020
+443,3,1,3,Wayfair,Apr-20,96.00,4,2020
+444,3,1,1,Earls,Apr-20,22.00,4,2020
+445,3,1,1,Costco,Apr-20,106.00,4,2020
+446,3,1,7,OneCycle,Apr-20,22.50,4,2020
+447,3,1,3,Amazon,Apr-20,17.00,4,2020
+448,3,1,3,Wayfair,Apr-20,91.00,4,2020
+449,3,1,2,Liquor Depot,Apr-20,26.00,4,2020
+450,3,1,3,Amazon,Apr-20,39.00,4,2020
+451,3,1,7,OneCycle,Apr-20,22.50,4,2020
+452,3,1,5,LuluLemon,Apr-20,87.00,4,2020
+453,3,1,3,Bed Bath & Beyond,Apr-20,76.00,4,2020
+454,3,1,8,rent,Apr-20,1800.00,4,2020
+455,3,1,1,Whole Foods,Apr-20,56.00,4,2020
+456,3,1,6,Shoppers DrugMart Pharmacy,Mar-20,6.00,3,2020
+457,3,1,3,Amazon,Mar-20,18.00,3,2020
+458,3,1,1,Costco,Mar-20,101.00,3,2020
+459,3,1,3,Bed Bath & Beyond,Mar-20,145.00,3,2020
+460,3,1,5,LuluLemon,Mar-20,145.00,3,2020
+461,3,1,2,Liquor Depot,Mar-20,55.00,3,2020
+462,3,1,1,Costco,Mar-20,164.00,3,2020
+463,3,1,1,Whole Foods,Mar-20,49.00,3,2020
+464,1,1,7,Kindle,Mar-20,25.00,3,2020
+465,3,1,2,Liquor Depot,Mar-20,50.00,3,2020
+466,3,1,1,Costco,Mar-20,161.00,3,2020
+467,1,1,7,OneCycle,Mar-20,22.50,3,2020
+468,3,1,1,Earls,Mar-20,82.00,3,2020
+469,3,1,5,LuluLemon,Mar-20,86.00,3,2020
+470,1,1,1,Costco,Mar-20,143.00,3,2020
+471,3,1,4,Petro Canada,Mar-20,57.00,3,2020
+472,3,1,7,OneCycle,Mar-20,22.50,3,2020
+473,3,1,3,Bed Bath & Beyond,Mar-20,73.00,3,2020
+474,3,1,3,Amazon,Mar-20,42.00,3,2020
+475,3,1,5,LuluLemon,Mar-20,77.00,3,2020
+476,3,1,6,Shoppers DrugMart Pharmacy,Mar-20,10.00,3,2020
+477,3,1,4,Petro Canada,Mar-20,64.00,3,2020
+478,3,1,3,Amazon,Mar-20,31.00,3,2020
+479,3,1,4,Petro Canada,Mar-20,63.00,3,2020
+480,3,1,1,Safeway,Mar-20,102.00,3,2020
+481,3,1,7,OneCycle,Mar-20,22.50,3,2020
+482,1,1,4,Calgary Transit,Mar-20,3.50,3,2020
+483,3,1,7,Kindle,Mar-20,37.00,3,2020
+484,3,1,6,Shoppers DrugMart Pharmacy,Mar-20,6.00,3,2020
+485,3,1,6,Shoppers DrugMart Pharmacy,Mar-20,9.00,3,2020
+486,3,1,6,Shoppers DrugMart Pharmacy,Mar-20,13.00,3,2020
+487,3,1,6,Shoppers DrugMart Pharmacy,Mar-20,9.00,3,2020
+488,3,1,7,OneCycle,Mar-20,22.50,3,2020
+489,3,1,4,Petro Canada,Mar-20,58.00,3,2020
+490,3,1,4,Petro Canada,Mar-20,60.00,3,2020
+491,3,1,2,Liquor Depot,Mar-20,29.00,3,2020
+492,3,1,1,Whole Foods,Mar-20,39.00,3,2020
+493,3,1,3,Bed Bath & Beyond,Mar-20,103.00,3,2020
+494,3,1,1,Whole Foods,Mar-20,98.00,3,2020
+495,3,1,6,Shoppers DrugMart Pharmacy,Mar-20,8.00,3,2020
+496,3,1,7,OneCycle,Mar-20,22.50,3,2020
+497,3,1,1,Whole Foods,Mar-20,57.00,3,2020
+498,1,1,4,Petro Canada,Mar-20,63.00,3,2020
+499,3,1,4,Calgary Transit,Mar-20,3.50,3,2020
+500,3,1,3,Bed Bath & Beyond,Mar-20,58.00,3,2020
+501,3,1,6,Shoppers DrugMart Pharmacy,Mar-20,9.00,3,2020
+502,3,1,7,OneCycle,Mar-20,22.50,3,2020
+503,3,1,2,Liquor Depot,Mar-20,43.00,3,2020
+504,3,1,5,LuluLemon,Mar-20,76.00,3,2020
+505,3,1,7,OneCycle,Mar-20,22.50,3,2020
+506,3,1,4,Petro Canada,Mar-20,51.00,3,2020
+507,1,1,7,Kindle,Mar-20,17.00,3,2020
+508,3,1,1,Earls,Mar-20,26.00,3,2020
+509,3,1,2,Liquor Depot,Mar-20,42.00,3,2020
+510,3,1,7,Kindle,Mar-20,39.00,3,2020
+511,3,1,1,Costco,Mar-20,150.00,3,2020
+512,3,1,3,Amazon,Mar-20,27.00,3,2020
+513,1,1,6,Shoppers DrugMart Pharmacy,Mar-20,10.00,3,2020
+514,3,1,1,Whole Foods,Mar-20,115.00,3,2020
+515,3,1,1,Uber Eats,Mar-20,16.65,3,2020
+516,3,1,3,Amazon,Mar-20,28.00,3,2020
+517,3,1,1,Whole Foods,Mar-20,80.00,3,2020
+518,3,1,4,Petro Canada,Mar-20,58.00,3,2020
+519,1,1,2,Liquor Depot,Mar-20,53.00,3,2020
+520,3,1,7,OneCycle,Mar-20,22.50,3,2020
+521,3,1,4,Petro Canada,Mar-20,55.00,3,2020
+522,3,1,2,Liquor Depot,Mar-20,36.00,3,2020
+523,3,1,1,Whole Foods,Mar-20,197.00,3,2020
+524,3,1,1,Whole Foods,Mar-20,21.00,3,2020
+525,1,1,2,Liquor Depot,Mar-20,55.00,3,2020
+526,3,1,7,Kindle,Mar-20,26.00,3,2020
+527,3,1,1,Uber Eats,Mar-20,16.65,3,2020
+528,3,1,7,OneCycle,Mar-20,22.50,3,2020
+529,3,1,5,LuluLemon,Mar-20,134.00,3,2020
+530,3,1,3,Wayfair,Mar-20,54.00,3,2020
+531,3,1,4,Calgary Transit,Mar-20,3.50,3,2020
+532,3,1,3,Amazon,Mar-20,48.00,3,2020
+533,3,1,7,Kindle,Mar-20,16.00,3,2020
+534,3,1,3,Bed Bath & Beyond,Mar-20,120.00,3,2020
+535,3,1,6,Shoppers DrugMart Pharmacy,Mar-20,10.00,3,2020
+536,3,1,8,rent,Mar-20,1800.00,3,2020
+537,3,1,3,Wayfair,Feb-20,76.00,2,2020
+538,3,1,3,Wayfair,Feb-20,80.00,2,2020
+539,3,1,7,Kindle,Feb-20,42.00,2,2020
+540,3,1,7,OneCycle,Feb-20,22.50,2,2020
+541,3,1,6,Shoppers DrugMart Pharmacy,Feb-20,5.00,2,2020
+542,3,1,2,Liquor Depot,Feb-20,27.00,2,2020
+543,3,1,7,OneCycle,Feb-20,22.50,2,2020
+544,3,1,7,OneCycle,Feb-20,22.50,2,2020
+545,3,1,7,OneCycle,Feb-20,22.50,2,2020
+546,3,1,1,Whole Foods,Feb-20,53.00,2,2020
+547,3,1,6,Shoppers DrugMart Pharmacy,Feb-20,5.00,2,2020
+548,3,1,6,Shoppers DrugMart Pharmacy,Feb-20,9.00,2,2020
+549,3,1,6,Shoppers DrugMart Pharmacy,Feb-20,14.00,2,2020
+550,3,1,1,Costco,Feb-20,93.00,2,2020
+551,1,1,4,Petro Canada,Feb-20,59.00,2,2020
+552,3,1,4,Petro Canada,Feb-20,53.00,2,2020
+553,3,1,4,Petro Canada,Feb-20,52.00,2,2020
+554,3,1,5,LuluLemon,Feb-20,80.00,2,2020
+555,1,1,1,Costco,Feb-20,111.00,2,2020
+556,3,1,2,Liquor Depot,Feb-20,36.00,2,2020
+557,3,1,3,Amazon,Feb-20,22.00,2,2020
+558,3,1,7,Kindle,Feb-20,28.00,2,2020
+559,3,1,3,Amazon,Feb-20,34.00,2,2020
+560,3,1,3,Amazon,Feb-20,28.00,2,2020
+561,3,1,1,Safeway,Feb-20,85.00,2,2020
+562,3,1,7,Kindle,Feb-20,23.00,2,2020
+563,3,1,2,Liquor Depot,Feb-20,48.00,2,2020
+564,1,1,4,Calgary Transit,Feb-20,3.50,2,2020
+565,3,1,1,Whole Foods,Feb-20,200.00,2,2020
+566,3,1,7,OneCycle,Feb-20,22.50,2,2020
+567,3,1,3,Bed Bath & Beyond,Feb-20,80.00,2,2020
+568,3,1,7,OneCycle,Feb-20,22.50,2,2020
+569,3,1,1,Costco,Feb-20,228.00,2,2020
+570,1,1,6,Shoppers DrugMart Pharmacy,Feb-20,15.00,2,2020
+571,3,1,7,OneCycle,Feb-20,22.50,2,2020
+572,3,1,1,Costco,Feb-20,225.00,2,2020
+573,3,1,2,Liquor Depot,Feb-20,49.00,2,2020
+574,3,1,4,Petro Canada,Feb-20,51.00,2,2020
+575,1,1,4,Calgary Transit,Feb-20,3.50,2,2020
+576,3,1,7,OneCycle,Feb-20,22.50,2,2020
+577,3,1,6,Shoppers DrugMart Pharmacy,Feb-20,5.00,2,2020
+578,3,1,4,Petro Canada,Feb-20,64.00,2,2020
+579,3,1,3,Wayfair,Feb-20,68.00,2,2020
+580,3,1,7,OneCycle,Feb-20,22.50,2,2020
+581,3,1,3,Bed Bath & Beyond,Feb-20,105.00,2,2020
+582,3,1,4,Petro Canada,Feb-20,56.00,2,2020
+583,3,1,4,Petro Canada,Feb-20,53.00,2,2020
+584,3,1,4,Petro Canada,Feb-20,53.00,2,2020
+585,3,1,5,LuluLemon,Feb-20,77.00,2,2020
+586,3,1,3,Amazon,Feb-20,16.00,2,2020
+587,3,1,8,rent,Feb-20,1800.00,2,2020
+588,3,1,1,Costco,Jan-20,182.00,1,2020
+589,3,1,5,LuluLemon,Jan-20,126.00,1,2020
+590,3,1,3,Amazon,Jan-20,18.00,1,2020
+591,3,1,5,LuluLemon,Jan-20,137.00,1,2020
+592,3,1,3,Bed Bath & Beyond,Jan-20,98.00,1,2020
+593,3,1,6,Shoppers DrugMart Pharmacy,Jan-20,12.00,1,2020
+594,3,1,3,Amazon,Jan-20,51.00,1,2020
+595,3,1,3,Bed Bath & Beyond,Jan-20,88.00,1,2020
+596,3,1,5,LuluLemon,Jan-20,119.00,1,2020
+597,3,1,4,Calgary Transit,Jan-20,3.50,1,2020
+598,3,1,4,Petro Canada,Jan-20,65.00,1,2020
+599,3,1,5,LuluLemon,Jan-20,85.00,1,2020
+600,3,1,4,Petro Canada,Jan-20,54.00,1,2020
+601,1,1,1,Costco,Jan-20,176.00,1,2020
+602,3,1,4,Calgary Transit,Jan-20,3.50,1,2020
+603,3,1,1,Earls,Jan-20,42.00,1,2020
+604,1,1,6,Shoppers DrugMart Pharmacy,Jan-20,8.00,1,2020
+605,3,1,3,Amazon,Jan-20,43.00,1,2020
+606,3,1,4,Petro Canada,Jan-20,56.00,1,2020
+607,3,1,4,Petro Canada,Jan-20,58.00,1,2020
+608,3,1,3,Wayfair,Jan-20,53.00,1,2020
+609,3,1,1,Costco,Jan-20,103.00,1,2020
+610,3,1,5,LuluLemon,Jan-20,150.00,1,2020
+611,3,1,7,Kindle,Jan-20,21.00,1,2020
+612,3,1,1,Whole Foods,Jan-20,97.00,1,2020
+613,3,1,2,Liquor Depot,Jan-20,23.00,1,2020
+614,3,1,8,rent,Jan-20,1800.00,1,2020
