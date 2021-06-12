@@ -8,37 +8,37 @@ import TableHead from '@material-ui/core/TableHead';
 import TableRow from '@material-ui/core/TableRow';
 import Paper from '@material-ui/core/Paper';
 
-const useStyles = makeStyles({
-  table: {
-    minWidth: 650,
-  },
-});
+// const useStyles = makeStyles({
+//   table: {
+//     minWidth: 650,
+//   },
+// });
 
-const ListTransactions = () => {
+// const ListTransactions = () => {
 
-  const [transactions, setTransactions] = useState([]);
+//   const [transactions, setTransactions] = useState([]);
 
-  const getTransactions = async () => {
-    try {
+//   const getTransactions = async () => {
+//     try {
 
-      const response = await fetch('http://localhost:5000/transactions')
-      const jsonData = await response.json()
+//       const response = await fetch('http://localhost:5000/transactions')
+//       const jsonData = await response.json()
 
-      console.log(jsonData);
+//       console.log(jsonData);
 
-      setTransactions(jsonData);
-    } catch (err) {
-      console.error(err.message)
-    }
-  };
+//       setTransactions(jsonData);
+//     } catch (err) {
+//       console.error(err.message)
+//     }
+//   };
 
-  useEffect(() => {
-    getTransactions();
-  }, []);
-  const classes = useStyles();
+//   useEffect(() => {
+//     getTransactions();
+//   }, []);
+//   const classes = useStyles();
 
-  // const rows = props.filteredRows;
-  // const customTableStyle = {width: 100}
+  const rows = props.filteredRows;
+  const customTableStyle = {width: 100}
 
   // return (
   //   <TableContainer component={Paper}>
