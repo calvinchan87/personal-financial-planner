@@ -2,12 +2,25 @@
 import React from 'react';
 import { Pie } from 'react-chartjs-2'
 
-import {getCategoryAndAmountSummary} from '../helpers/transactionsPie'
+// import {getCategoryAndAmountSummary} from '../helpers/transactionsPie'
+import useTransactionData from '../helpers/transactionsPie';
 
 import '../styles/transactionsPie.css'
 
 const TransactionPie = (props) => {
+
+  const {
+    transactions,
+    getCategoryAndAmountSummary,
+    Rows,
+    Categories,
+    Filter
+  } = useTransactionData();
+
   const categoryAndAmounts = getCategoryAndAmountSummary(props.filteredRows)
+
+  console.log("category and amounts!", categoryAndAmounts.categories)
+  console.log("category and amounts.amounts!", categoryAndAmounts.amounts)
   return <div class = 'transactionpie'>
     <Pie
      data = {{
