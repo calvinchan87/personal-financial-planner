@@ -14,23 +14,24 @@
 // //   },
 // // });
 
-// // const ListTransactions = () => {
+// const ListTransactions = () => {
 
-// //   const [transactions, setTransactions] = useState([]);
+//   const [transactions, setTransactions] = useState([]);
 
-// //   const getTransactions = async () => {
-// //     try {
+  // const getTransactions = async () => {
+  //   try {
 
-// //       const response = await fetch('http://localhost:5000/transactions')
-// //       const jsonData = await response.json()
+  //     const response = await fetch('http://localhost:5000/transactions')
+  //     const jsonData = await response.json()
 
-// //       console.log(jsonData);
+  //     console.log(jsonData);
 
-// //       setTransactions(jsonData);
-// //     } catch (err) {
-// //       console.error(err.message)
-// //     }
-// //   };
+  //     setTransactions(jsonData);
+  //   } catch (err) {
+  //     console.error(err.message)
+  // }}
+  // console.log(getTransactions());
+//   };
 
 // //   useEffect(() => {
 // //     getTransactions();
@@ -98,7 +99,7 @@ export default function BasicTable(props) {
   const classes = useStyles();
   const rows = props.filteredRows;
   const customTableStyle = {width: 100}
-
+// console.log(props.filteredRows)
   return (
     <TableContainer component={Paper}>
       <Table style={customTableStyle} className={classes.table} aria-label="simple table">
