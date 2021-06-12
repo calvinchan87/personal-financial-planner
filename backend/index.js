@@ -20,7 +20,7 @@ app.get("/", async(req, res) => {
 // get all transactions
 app.get("/transactions", async(req, res) => {
   try {
-    const allTransactions = await pool.query("SELECT transactions.id, date, description, category.category, amount FROM transactions JOIN category ON transactions.category_id = category.id");
+    const allTransactions = await pool.query("SELECT transactions.id, date, description, category.category, amount FROM transactions JOIN category ON transactions.category_id = category.id ORDER BY transactions.year DESC, transactions.month DESC");
     res.json(allTransactions.rows);
   } catch (err) {
     console.error(err.message);
