@@ -18,13 +18,17 @@ import './styles/flipcard.css'
 
 function App() {
   const [active, setActive] = useState("overview")
+
+  console.log(active)
+
   return (
     <div className="App">
       <nav className="nav-bar">
-        <button class="nav-button" onClick = {() => setActive("overview")}>Overview</button>
-        <button class="nav-button" onClick = {() => setActive("transaction")}>Transactions</button>
-        <button class="nav-button" onClick = {() => setActive("insight")}>Insights</button>
-        <button class="nav-button" onClick = {() => setActive("achievements")}>Achievements</button>
+        <img className="img-responsive" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1ViHzG7hGs1CgyVlicBVPuIeyUMYaEGtJsBlGQiZcMdQ6J0abaSywP1MDPzp8RjZDRA" alt="logo"/>
+        <button class={active === "overview" ? "nav-button active" : "nav-button"} onClick = {() => setActive("overview")}>Overview</button>
+        <button class={active === "transaction" ? "nav-button active" : "nav-button"} onClick = {() => setActive("transaction")}>Transactions</button>
+        <button class={active === "insight" ? "nav-button active" : "nav-button"} onClick = {() => setActive("insight")}>Insights</button>
+        <button class={active === "achievements" ? "nav-button active" : "nav-button"} onClick = {() => setActive("achievements")}>Achievements</button>
       </nav>
       <div>
         {active === "overview" && <AcctSummaryTable />}

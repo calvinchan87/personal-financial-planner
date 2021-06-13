@@ -12,7 +12,7 @@ app.use(express.json()); // req.body
 app.get("/", async(req, res) => {
   try {
     res.send("go to /transactions")
-  } catch (error) {
+  } catch (err) {
     console.log(err.message);
   }
 })
