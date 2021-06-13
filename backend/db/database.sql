@@ -30,7 +30,7 @@ CREATE TABLE transactions (
   description VARCHAR(255),
   date VARCHAR(255),
   amount DECIMAL(12,2),
-  month VARCHAR(255),
+  month INTEGER,
   year INTEGER
 );
 

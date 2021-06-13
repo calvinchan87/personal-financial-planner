@@ -27,7 +27,15 @@ app.get("/transactions", async(req, res) => {
   }
 });
 
-
+// get all transactions
+app.get("/badges", async(req, res) => {
+  try {
+    const allTransactions = await pool.query("SELECT transactions.id, date, category.category, amount, month, year FROM transactions JOIN category ON transactions.category_id = category.id");
+    res.json(allTransactions.rows);
+  } catch (err) {
+    console.error(err.message);
+  }
+});
 
 app.listen(5000, () => {
   console.log('listening on port 5000 yo')
