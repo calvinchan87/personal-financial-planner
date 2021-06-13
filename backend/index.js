@@ -28,9 +28,9 @@ app.get("/transactions", async(req, res) => {
 });
 
 // get sum
-app.get("/sum", async(req, res) => {
+app.get("/sums", async(req, res) => {
   try {
-    const allSum = await pool.query("SELECT SUM(amount) FROM transactions WHERE date='May-21'");
+    const allSum = await pool.query("SELECT date, SUM(amount) FROM transactions GROUP BY date");
     res.json(allSum.rows);
   } catch (err) {
     console.error(err.message);

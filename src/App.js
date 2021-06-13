@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 
 import AcctSummaryTable from './components/AcctSummaryTable'
-import GroupedBar from './components/monthlySpendBarChart'
 import GroupedBar2 from './components/govCompareChart'
 import SaveFlipCard from './components/saveflipcard'
 import LiquidFlipCard from './components/liquidflipcard'
 import EmergencyFlipCard from './components/emergencyflipcard'
+
 
 import IncomeExpenseLineGraph from './components/IncomeExpenseLineGraph';
 import NetWorthPie from './components/NetWorthPie';
@@ -28,13 +28,12 @@ function App() {
       </nav>
       <div>
         {active === "overview" && <AcctSummaryTable />}
-        {active === "overview" && <IncomeExpenseLineGraph />}
         {active === "overview" && <NetWorthPie />}
         {active === "transaction" && <TransactionPage />}
         {active === "achievements" && <Badge />}
       </div>  
       <div class="insightchart">
-        {active === "insight" && <GroupedBar/>}
+        {active === "insight" && <IncomeExpenseLineGraph/>}
         {active === "insight" && <GroupedBar2/>}
       </div>
       <div class="flipcard">
