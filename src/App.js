@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 import AcctSummaryTable from './components/AcctSummaryTable'
-import GroupedBar2 from './components/govCompareChart'
+import GovCompareChart from './components/govCompareChart'
 import SaveFlipCard from './components/saveflipcard'
 import LiquidFlipCard from './components/liquidflipcard'
 import EmergencyFlipCard from './components/emergencyflipcard'
@@ -34,7 +34,7 @@ function App() {
       </div>  
       <div class="insightchart">
         {active === "insight" && <IncomeExpenseLineGraph/>}
-        {active === "insight" && <GroupedBar2/>}
+        {active === "insight" && <GovCompareChart/>}
       </div>
       <div class="flipcard">
         {active === "insight" && <SaveFlipCard/>}
