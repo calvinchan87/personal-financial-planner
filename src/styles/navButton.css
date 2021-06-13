@@ -1,9 +1,17 @@
+.nav-bar {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  background-color: white;
+}
+
 .nav-button {
   border: none;
   outline: none;
   padding: 10px 16px;
-  background-color: #f1f1f1;
+  background-color: white;
   cursor: pointer;
+  border-bottom: 4px solid #77A6F7;
 }
 
 .nav-button:hover {
@@ -22,5 +30,5 @@
   width: auto;
   max-height: 20px;
   padding-left: 10px;
-  padding-right: 20px;
+  padding-right: 40px;
 }

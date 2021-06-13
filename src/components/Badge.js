@@ -15,20 +15,20 @@ const Badge = () => {
     // const dataLength = props.data.length;
     // const isEarned = dataLength > 613 ? true : false;
 
-    let currentMonthExp = 0;
-    let lastMonthExp = 0;
-    for (let transaction of props.data) {
-      if (transaction.date === "Jun-21") {
-        currentMonthExp += parseInt(transaction.amount);
+    let currentMonthFoodExp = 0;
+    let lastMonthFoodExp = 0;
+    for (let t of props.data) {
+      if (t.date === "Jun-21" && t.category === "food") {
+        currentMonthFoodExp += parseInt(t.amount);
       }
-      if (transaction.date === "May-21") {
-        lastMonthExp += parseInt(transaction.amount);
+      if (t.date === "May-21" && t.category === "food") {
+        lastMonthFoodExp += parseInt(t.amount);
       }
     }
-    console.log("Current month expenses: ", currentMonthExp)
-    console.log("Last month expenses: ", lastMonthExp)
+    console.log("Current month food expenses: ", currentMonthFoodExp)
+    console.log("Last month food expenses: ", lastMonthFoodExp)
 
-    const isEarned = currentMonthExp < lastMonthExp ? true : false;
+    const isEarned = currentMonthFoodExp < lastMonthFoodExp ? true : false;
 
     return <Alert style={{background: `linear-gradient(rgba(255,255,255,.8), rgba(255,255,255,.7)), url("https://images.unsplash.com/photo-1498579397066-22750a3cb424?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=640")`}}
                   message="Grocery Guru" type={isEarned ? "success" : "error"} showIcon />
@@ -84,7 +84,7 @@ const Badge = () => {
            </Tooltip>
          </div>
          <div class="container-ind">
-           <Tooltip title="Spent less than the average Canadian (as a proportion of total income) last month" placement="bottomLeft">
+           <Tooltip title="Spent less on food and groceries last month, compared to the month before" placement="bottomLeft">
              <span>
                <Grocery isEarned={true} data={transactions}/>
              </span>
