@@ -20,9 +20,10 @@ export default function useTransactionData() {
     for (let x = 0; x < transactions.length; x++) {
       let singleTransaction = transactions[x]
       if (singleTransaction.category in totalsums) {
-        totalsums[singleTransaction.category] += parseInt(singleTransaction.amount)
+        totalsums[singleTransaction.category] += Number(singleTransaction.amount.replace(/[^0-9\.-]+/g,""));
+
       } else {
-        totalsums[singleTransaction.category] = parseInt(singleTransaction.amount)
+        totalsums[singleTransaction.category] = Number(singleTransaction.amount.replace(/[^0-9\.-]+/g,""));
       }
     }
     let categories = [];
