@@ -1,52 +1,89 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Bar } from 'react-chartjs-2';
 
-import '../styles/insightchart.css'
+import '../styles/insightspage.css'
 
-const data = {
-  labels: [
-    'food',
-    'shelter', 
-    'household',
-    'clothing & footwear',
-    'transportation',
-    'health & personal care',
-    'recreation, education and reading',
-    'alcoholic beverages & tobacco'
-  ],
-  datasets: [
-    {
-      label: 'average Canadian expenses (%)',
-      data: ['18.66', '29.63', '14.04', '3.63', '17.61', '5.64', '7.15', '3.64'],
-      backgroundColor: 'rgb(255, 99, 132)',
-    },
-    {
-      label: 'Your expenses (%)',
-      data: ['17.85', '29.35', '14.64', '4.34', '17.27', '5.59', '7.69', '3.26'],
-      backgroundColor: 'rgb(54, 162, 235)',
+const GovCompareChart = () => {
+
+  const [expByCat, setExpByCat] = useState([]);
+
+  const getExpByCat = async () => {
+    try {
+
+      const response = await fetch("http://localhost:5000/expenses")
+      const jsonData = await response.json()
+      
+      setExpByCat(jsonData)
+    } catch (err) {
+      console.error(err.message)
     }
-  ],
-};
+  };
 
-const options = {
-  scales: {
-    yAxes: [
-      {
-        ticks: {
-          beginAtZero: true,
-        },
-      },
+  const calculateTotal = () => {
+    let total = 0;
+    for (const data of expByCat) {
+      total += data.expense
+    }
+    return total;
+  }
+  const expensesRatio = () => {
+    let exp = [];
+    for(const data of expByCat) {
+      const ratio = (data.expense/calculateTotal() * 100).toFixed(2)
+      exp.push(ratio)
+    }
+    return exp
+  };
+
+  useEffect(() => {
+    getExpByCat();
+  }, []);
+
+  const data = {
+    labels: [
+      'alcohol & tobacco',
+      'clothing & footwear', 
+      'food',
+      'health & personal',
+      'household',
+      'reacreation, education, & reading',
+      'shelter',
+      'transportation'
     ],
-  },
-};
-
-const GroupedBar2 = () => (
-  <div class="barchart2">
+    datasets: [
+      {
+        label: 'average Canadian expenses (%)',
+        data: ['3.45', '4.31', '18.58', '5.34', '14.63', '7.79', '29.32', '16.58'],
+        backgroundColor: 'rgb(255, 99, 132)',
+      },
+      {
+        label: 'Your expenses (%)',
+        data: expensesRatio(),
+        backgroundColor: 'rgb(54, 162, 235)',
+      }
+    ],
+  };
+  
+  const options = {
+    scales: {
+      yAxes: [
+        {
+          ticks: {
+            beginAtZero: true,
+          },
+        },
+      ],
+    },
+  };
+  
+  return <div class="govchart">
     <div className='header'>
-      <h1 className='title'>Government Chart</h1>
+      <h1 className='govcharttitle'>Government Chart</h1>
     </div>
     <Bar data={data} options={options} />
   </div>
-);
 
-export default GroupedBar2;
+}
+  
+
+export default GovCompareChart;
