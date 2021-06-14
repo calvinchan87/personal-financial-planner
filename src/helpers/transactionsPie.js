@@ -100,7 +100,7 @@ export default function useTransactionData() {
     for (let x = 0; x < transactions.length; x++) {
       let singleTransaction = transactions[x]
       if (singleTransaction.category in totalsums) {
-        totalsums[singleTransaction.category] += parseInt(singleTransaction.amount)
+        totalsums[singleTransaction.category] += Number(singleTransaction.amount.replace(/[^0-9\.-]+/g,""));
         
         // console.log("single transactions category", singleTransaction.category)
         // console.log("singleTransaction amount", singleTransaction.amount)
@@ -108,7 +108,7 @@ export default function useTransactionData() {
         // console.log('singletransaction', singleTransaction)
 
       } else {
-        totalsums[singleTransaction.category] = parseInt(singleTransaction.amount)
+        totalsums[singleTransaction.category] = Number(singleTransaction.amount.replace(/[^0-9\.-]+/g,""));
       }
     }
     let categories = [];

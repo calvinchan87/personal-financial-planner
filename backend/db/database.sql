@@ -29,8 +29,8 @@ CREATE TABLE transactions (
   category_id INTEGER REFERENCES category(id) ON DELETE CASCADE,
   description VARCHAR(255),
   date VARCHAR(255),
-  amount DECIMAL(12,2),
-  month VARCHAR(255),
+  amount MONEY,
+  month INTEGER,
   year INTEGER
 );
 

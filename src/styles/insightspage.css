@@ -1,0 +1,29 @@
+.IEGlinegraph {
+  width: 500px;
+  height: 300px
+}
+.IEGtitle {
+  display: flex;
+  justify-content: center;
+}
+
+.govchart {
+  width: 600px;
+  height: 300px;
+}
+
+.govcharttitle {
+  display: flex;
+  justify-content: center;
+}
+
+.insightchart {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 150px;
+}
+
+.flipcard {
+  display: flex;
+  justify-content: space-evenly;
+}
