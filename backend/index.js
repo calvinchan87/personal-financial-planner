@@ -30,7 +30,7 @@ app.get("/transactions", async(req, res) => {
 // get sum
 app.get("/sums", async(req, res) => {
   try {
-    const allSums = await pool.query(`SELECT date, SUM(amount) as "expense" FROM transactions GROUP BY date`);
+    const allSums = await pool.query(`SELECT date, SUM(amount) as "expense" FROM transactions GROUP BY date, transactions.month, transactions.year  ORDER BY year, month`);
     allSums.rows.forEach(sum => {
       sum.income = 5000.00
       sum.expense = Number(sum.expense.replace(/[^0-9\.-]+/g,""));

@@ -14,7 +14,8 @@ export default function EmergencyFlipCard() {
       style={{ width: '200px', height: '200px' }} /// these are optional style, it is not necessary
   >
     <FrontSide style={{ backgroundColor: 'rgb(255, 99, 132)'}} >
-      Your current Emergency Funds Ratio: {((20000.00/22925.575)*100).toFixed(2)}% <br />
+      GREAT!
+      Your current Emergency Funds Ratio: {((10365.00 + 3245.65 + 15100.00)/((65912.40/18)*6)*100).toFixed(2)}% <br />
       {/* <button onClick={() => { ref.current.toggle(); }}></button> */}
     </FrontSide>
     <BackSide style={{ backgroundColor: 'rgb(54, 162, 235)'}}>
