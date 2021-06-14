@@ -18,9 +18,7 @@ import './styles/insightspage.css'
 
 function App() {
   const [active, setActive] = useState("overview")
-
-  console.log(active)
-
+  
   return (
     <div className="App">
       <nav className="nav-bar">

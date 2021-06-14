@@ -2,6 +2,7 @@ const express = require('express');
 const app = express();
 const cors = require('cors');
 const pool = require('./db');
+const { GRID_COLUMN_VISIBILITY_CHANGE } = require('@material-ui/data-grid');
 
 // middleware
 app.use(cors());
@@ -38,6 +39,15 @@ app.get("/badges", async(req, res) => {
   }
 });
 
+app.get("/overview", async(req, res) => {
+  try {
+    const overviewDetails = await pool.query("SELECT useraccountdetails.id, accounttypes.account_name, description, balance FROM useraccountdetails JOIN accounttypes ON useraccountdetails.account_type_id = accounttypes.id;");
+    res.json(overviewDetails.rows);
+  } catch (err) {
+    console.log(err.message);
+  }
+})
+
 // get sum
 app.get("/sums", async(req, res) => {
   try {
@@ -69,48 +79,3 @@ app.get("/expenses", async(req, res) => {
 app.listen(5000, () => {
   console.log('listening on port 5000 yo')
 });
-
-
-
-// Routes
-
-// // create transactions
-// app.post("/transactions", async(req, res) => {
-//   try {
-//     const { user_account_details_id, user_id, category_id, description, date, amount } = req.body;
-//     const newTransactions = await pool.query(
-//       "INSERT INTO transactions (user_account_details_id, user_id, category_id, description, date, amount) VALUES ($1, $2, $3, $4, $5, $6) RETURNING * ",
-//       [user_account_details_id, user_id, category_id, description, date, amount]
-//     );
-
-//     res.json(newTransactions.rows[0]);
-//     console.log(req.body);
-//   } catch (err) {
-//     console.error(err.message);
-//   }
-// })
-
-// // get all transactions
-// app.get("/transactions", async(req, res) => {
-//   try {
-//     const allTransactions = await pool.query("SELECT * FROM transactions")
-//     res.json(allTransactions.rows)
-//   } catch (err) {
-//     console.error(err.message)
-//   }
-// })
-
-// // get all category
-// app.get("/category", async(req, res) => {
-//   try {
-//     const allCategory = await pool.query("SELECT * FROM category")
-//     res.json(allCategory.rows)
-//   } catch (err) {
-//     console.error(err.message)
-//   }
-// })
-
-// app.listen(5000, () => {
-//   console.log("server has started on port 5000");
-// })
-

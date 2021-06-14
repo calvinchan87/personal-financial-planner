@@ -1,10 +1,17 @@
 import React from 'react';
 import { Pie } from 'react-chartjs-2'
-import { netWorth, assetsDebt } from '../helpers/netWorth'
+import useNetWorthData from '../helpers/netWorth'
 
 import '../styles/transactionsPie.css'
 
 const NetWorthPie = () => {
+
+  const {
+    networth,
+    netWorth,
+    assetsDebt
+  } = useNetWorthData();
+
     return <div class = 'transactionpie'>
     <Pie
      data = {{
