@@ -2,7 +2,6 @@
 import React from 'react';
 import { Pie } from 'react-chartjs-2'
 
-// import {getCategoryAndAmountSummary} from '../helpers/transactionsPie'
 import useTransactionData from '../helpers/transactionsPie';
 
 import '../styles/transactionsPie.css'

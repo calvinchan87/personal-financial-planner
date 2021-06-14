@@ -7,7 +7,7 @@ import SaveFlipCard from './components/saveflipcard'
 import LiquidFlipCard from './components/liquidflipcard'
 import EmergencyFlipCard from './components/emergencyflipcard'
 
-import IncomeExpenseLineGraph from './components/IncomeExpenseLineGraph';
+
 import NetWorthPie from './components/NetWorthPie';
 import TransactionPage from './components/TransactionPage';
 import Badge from './components/Badge'
@@ -18,6 +18,7 @@ import './styles/flipcard.css'
 
 function App() {
   const [active, setActive] = useState("overview")
+  
   return (
     <div className="App">
       <nav className="nav-bar">
@@ -28,7 +29,6 @@ function App() {
       </nav>
       <div>
         {active === "overview" && <AcctSummaryTable />}
-        {active === "overview" && <IncomeExpenseLineGraph />}
         {active === "overview" && <NetWorthPie />}
         {active === "transaction" && <TransactionPage />}
         {active === "achievements" && <Badge />}
