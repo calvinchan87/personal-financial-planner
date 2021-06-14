@@ -12,7 +12,7 @@ app.use(express.json()); // req.body
 app.get("/", async(req, res) => {
   try {
     res.send("go to /transactions")
-  } catch (error) {
+  } catch (err) {
     console.log(err.message);
   }
 })
@@ -22,6 +22,16 @@ app.get("/transactions", async(req, res) => {
   try {
     const allTransactions = await pool.query(`SELECT transactions.id, date, description, category.category, amount FROM transactions JOIN category ON transactions.category_id = category.id`);
     // const allTransactions = await pool.query("SELECT transactions.id, date, description, category.category, amount FROM transactions JOIN category ON transactions.category_id = category.id ORDER BY transactions.year DESC, transactions.month DESC");
+    res.json(allTransactions.rows);
+  } catch (err) {
+    console.error(err.message);
+  }
+});
+
+// get all transactions
+app.get("/badges", async(req, res) => {
+  try {
+    const allTransactions = await pool.query("SELECT transactions.id, date, category.category, amount, month, year FROM transactions JOIN category ON transactions.category_id = category.id");
     res.json(allTransactions.rows);
   } catch (err) {
     console.error(err.message);
@@ -55,8 +65,6 @@ app.get("/expenses", async(req, res) => {
     console.error(err.message);
   }
 })
-
-
 
 app.listen(5000, () => {
   console.log('listening on port 5000 yo')
