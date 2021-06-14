@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import TransactionPie from './TransactionPie';
-import SpendingLineGraph from './SpendingComponents/SpendingLineGraph';
 import BasicTable from './TransactionsTable';
 import Input from './inputField';
 
