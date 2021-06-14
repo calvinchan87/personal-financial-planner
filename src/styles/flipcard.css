@@ -1,0 +1,23 @@
+.title {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.17em;
+}
+
+.rate_ratio {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.17em;
+}
+
+.backtitle {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-bottom: inherit;
+}
+
+.formula {
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: inherit;
+}
