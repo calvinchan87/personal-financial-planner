@@ -14,7 +14,7 @@ import Badge from './components/Badge'
 
 import './styles/app.css'
 import './styles/navButton.css'
-import './styles/flipcard.css'
+import './styles/insightspage.css'
 
 function App() {
   const [active, setActive] = useState("overview")

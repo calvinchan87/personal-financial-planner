@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Line } from 'react-chartjs-2'
 
-import '../../src/styles/lineGraph.css'
+import '../../src/styles/insightspage.css'
 
 const IncomeExpenseLineGraph = () => {
 
@@ -47,8 +47,8 @@ const expensesArray = () => {
    }
    return exp
  };
-  return <div class="linegraph">
-    <h1 className="title" >Income Expense Graph</h1>
+  return <div class="IEGlinegraph">
+    <h1 className="IEGtitle" >Income Expense Graph</h1>
     <Line
      data = {{
       labels: dateArray(),
@@ -58,14 +58,14 @@ const expensesArray = () => {
         data: incomeArray(),
         fill: false,
         tension: 0.1,
-        backgroundColor: '#00887A',
-        borderColor: '#00887A',
+        backgroundColor: 'rgb(255, 99, 132)',
+        borderColor: 'rgb(255, 99, 132)',
       },
       {
         label: 'Expenses ($)',
         data: expensesArray(),
-        backgroundColor: '#FFCCBC',
-        borderColor: '#FFCCBC'
+        backgroundColor: 'rgb(54, 162, 235)',
+        borderColor: 'rgb(54, 162, 235)'
       },
     ],
   }}
