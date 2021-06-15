@@ -78,7 +78,7 @@ const GovCompareChart = () => {
   
   return <div class="govchart">
     <div className='header'>
-      <h1 className='govcharttitle'>Government Chart</h1>
+      <h1 className='govcharttitle'>National Household Spending Comparison</h1>
     </div>
     <Bar data={data} options={options} />
   </div>
