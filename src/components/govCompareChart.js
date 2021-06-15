@@ -46,7 +46,7 @@ const GovCompareChart = () => {
       'food',
       'health & personal',
       'household',
-      'reacreation, education, & reading',
+      'recreation, education, & reading',
       'shelter',
       'transportation'
     ],
