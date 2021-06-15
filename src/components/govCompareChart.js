@@ -54,12 +54,12 @@ const GovCompareChart = () => {
       {
         label: 'average Canadian expenses (%)',
         data: ['3.45', '4.31', '18.58', '5.34', '14.63', '7.79', '29.32', '16.58'],
-        backgroundColor: 'rgb(255, 99, 132)',
+        backgroundColor: '#FFCCBC',
       },
       {
         label: 'Your expenses (%)',
         data: expensesRatio(),
-        backgroundColor: 'rgb(54, 162, 235)',
+        backgroundColor: '#77A6F7',
       }
     ],
   };
@@ -78,7 +78,7 @@ const GovCompareChart = () => {
   
   return <div class="govchart">
     <div className='header'>
-      <h1 className='govcharttitle'>Government Chart</h1>
+      <h1 className='govcharttitle'>National Household Spending Comparison</h1>
     </div>
     <Bar data={data} options={options} />
   </div>

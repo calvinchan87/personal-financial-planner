@@ -44,7 +44,8 @@ export default function useOverviewData() {
     console.log(newArray)
     let sumOfCreditCards = 0;
     for(let x = 0; x < newArray.length; x++) {
-      sumOfCreditCards += parseInt(newArray[x].balance);
+      sumOfCreditCards += Number(newArray[x].balance.replace(/[^0-9\.-]+/g,""));
+
     }
     return sumOfCreditCards.toFixed(2);
   }

@@ -20,10 +20,8 @@
 .insightchart {
   display: flex;
   justify-content: space-evenly;
-  padding-bottom: 150px;
+  padding-top: 45px;
+  padding-bottom: 85px;
 }
 
-.flipcard {
-  display: flex;
-  justify-content: space-evenly;
-}
+

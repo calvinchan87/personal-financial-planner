@@ -9,11 +9,13 @@ import TableRow from '@material-ui/core/TableRow';
 import Paper from '@material-ui/core/Paper';
 import useOverviewData from '../helpers/accountSummary';
 
+import '../styles/overview.css'
+
 const faker = require('faker');
 
 const StyledTableCell = withStyles((theme) => ({
   head: {
-    backgroundColor: theme.palette.common.black,
+    backgroundColor: theme.palette.info.light,
     color: theme.palette.common.white,
   },
   body: {
@@ -24,7 +26,7 @@ const StyledTableCell = withStyles((theme) => ({
 const StyledTableRow = withStyles((theme) => ({
   root: {
     '&:nth-of-type(odd)': {
-      backgroundColor: theme.palette.action.hover,
+      backgroundColor: theme.palette.error.hover,
     },
   },
 }))(TableRow);
@@ -50,12 +52,13 @@ const CustomizedTables = () => {
     investmentArray, 
     loansArray} = useOverviewData();
   const classes = useStyles();
+  const customTableStyle = {width: 100}
   
   console.log("cash array", cashArray());
   
-  return <div>
+  return <div className="acctsummarytable">
     <TableContainer component={Paper}>
-      <Table className={classes.table} aria-label="customized table">
+      <Table style={customTableStyle} className={classes.table} aria-label="customized table">
         <TableHead>
           <TableRow>
             <StyledTableCell>Cash</StyledTableCell>
@@ -76,7 +79,7 @@ const CustomizedTables = () => {
         <TableHead>
           <TableRow>
             <StyledTableCell>Credit Cards</StyledTableCell>
-            <StyledTableCell align="right">Total: ${creditCardSum()} </StyledTableCell>
+            <StyledTableCell align="right">Total: -${creditCardSum()} </StyledTableCell>
           </TableRow>
         </TableHead>
         <TableBody>
@@ -85,7 +88,7 @@ const CustomizedTables = () => {
               <StyledTableCell component="th" scope="row">
                 {row.description}
               </StyledTableCell>
-              <StyledTableCell align="right">${row.balance}</StyledTableCell>
+              <StyledTableCell align="right">-${row.balance}</StyledTableCell>
             </StyledTableRow>
           ))}
         </TableBody>
@@ -110,7 +113,7 @@ const CustomizedTables = () => {
         <TableHead>
           <TableRow>
             <StyledTableCell>Loans</StyledTableCell>
-            <StyledTableCell align="right">Total: ${loanSum()} </StyledTableCell>
+            <StyledTableCell align="right">Total: -${loanSum()} </StyledTableCell>
           </TableRow>
         </TableHead>
         <TableBody>
@@ -119,7 +122,7 @@ const CustomizedTables = () => {
               <StyledTableCell component="th" scope="row">
                 {row.description}
               </StyledTableCell>
-              <StyledTableCell align="right">${row.balance}</StyledTableCell>
+              <StyledTableCell align="right">-${row.balance}</StyledTableCell>
             </StyledTableRow>
           ))}
         </TableBody>

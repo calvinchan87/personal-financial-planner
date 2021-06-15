@@ -58,14 +58,14 @@ const expensesArray = () => {
         data: incomeArray(),
         fill: false,
         tension: 0.1,
-        backgroundColor: 'rgb(255, 99, 132)',
-        borderColor: 'rgb(255, 99, 132)',
+        backgroundColor: '#FFCCBC',
+        borderColor: '#FFCCBC',
       },
       {
         label: 'Expenses ($)',
         data: expensesArray(),
-        backgroundColor: 'rgb(54, 162, 235)',
-        borderColor: 'rgb(54, 162, 235)'
+        backgroundColor: '#77A6F7',
+        borderColor: '#77A6F7'
       },
     ],
   }}
