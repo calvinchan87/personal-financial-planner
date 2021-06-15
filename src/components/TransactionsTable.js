@@ -169,7 +169,7 @@ export default function BasicTable(props) {
                     (row.category === 'shelter' && '#77A6F7') ||
                     (row.category === 'health & personal' && '#FFCCBC') ||
                     (row.category === 'household' && '#FFCCBC') ||
-                    (row.category === 'reacreation, education, & reading' && '#cbdcfa') ||
+                    (row.category === 'recreation, education, & reading' && '#cbdcfa') ||
                     (row.category === 'alcohol & tobacco' && '#cbdcfa') ||
                     (row.category === 'clothing & footwear' && '#77A6F7')),
                     // color: ((row.category === 'reacreation, education, & reading' && '#b8b7b7') ||
