@@ -26,7 +26,7 @@ const TransactionPage = () => {
   console.log("filtered rows------>", filteredRows)
     return (
       <section>
-        <div>
+        <div className="transactions-page">
         <Input setFilter={setFilter} />
         <TransactionPie filteredRows={filteredRows}/>
         <BasicTable filteredRows={filteredRows}/>

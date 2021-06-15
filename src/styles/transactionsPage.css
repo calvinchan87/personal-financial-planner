@@ -1,0 +1,73 @@
+.transactions-page {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 100px;
+}
+
+.transaction-pie {
+  height: 400px;
+  width: 400px;
+}
+
+.transaction-filter {
+  margin-bottom: 25px;
+  
+}
+
+.transaction-table {
+  margin-top: 70px;
+}
+
+.btn {
+  display: inline-block;
+	background: transparent;
+  font-family: inherit;
+	color: inherit;
+	border: 0;
+	outline: 0;
+	padding: 0;
+	transition: all 200ms ease-in;
+	cursor: pointer;
+}
+
+.btn--primary {
+  background: #77A6F7;
+  color: #fff;
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, .1);
+  padding: 7px 25px;
+  border-radius: 25px;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.btn--primary:hover {
+  background-color: #77a6f7a2;
+}
+
+.btn--primary:active {
+  transform: translateY(-2px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn--inside {
+  margin-left: -110px;
+}
+.form__field {
+  width: 370px;
+  border-radius: 6.25em;
+  background-color: white;
+  color: #919090;
+  font-weight: 900;
+  transition: 0.2s;
+  border: 0;
+  outline: 0;
+  padding: 22px 18px;
+  box-shadow: 0 0.125em 0.3125em rgba(0, 0, 0, 0.3);
+}
+
+.form__field::placeholder {
+  font-family: 'Roboto', sans-serif;
+  color: #d1cfcf;
+  font-weight: bolder;
+}

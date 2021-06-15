@@ -4,7 +4,7 @@ import { Pie } from 'react-chartjs-2'
 
 import useTransactionData from '../helpers/transactionsPie';
 
-import '../styles/transactionsPie.css'
+import '../styles/transactionsPage.css'
 
 const TransactionPie = (props) => {
 
@@ -18,9 +18,7 @@ const TransactionPie = (props) => {
 
   const categoryAndAmounts = getCategoryAndAmountSummary(props.filteredRows)
 
-  console.log("category and amounts!", categoryAndAmounts.categories)
-  console.log("category and amounts.amounts!", categoryAndAmounts.amounts)
-  return <div class = 'transactionpie'>
+  return <div class = 'transaction-pie'>
     <Pie
      data = {{
        labels: categoryAndAmounts.categories,
@@ -33,7 +31,7 @@ const TransactionPie = (props) => {
         plugins: {
           title: {
             display: true,
-            text: 'Spending by Category'
+           
           },
           legend: {
             display: false
