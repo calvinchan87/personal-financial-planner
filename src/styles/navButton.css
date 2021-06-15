@@ -2,7 +2,8 @@
   position: fixed;
   top: 0px;
   width: 100%;
-  background-color: rgb(250, 241, 241);
+  background-color: white;
+  z-index: 9999;
 }
 
 .nav-button {

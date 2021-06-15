@@ -1,9 +1,8 @@
 ﻿id,user_id,account_type_id,description,name_of_institution,balance
 1,1,1,RBC Day to Day Banking ,RBC,10365.00
 2,1,1,RBC No Limit Banking,RBC,3245.65
-3,1,3,RBC Rewards+ Visa,RBC,-2056.50
+3,1,3,RBC Rewards+ Visa,RBC,2056.50
 4,1,2,RBC High Interest eSavings,RBC,15100.00
 5,1,4,RBC Direct Investing,RBC,55096.00
 6,1,4,RBC TFSA,RBC,10000.00
-7,1,5,RBC Royal Credit Line - Student,RBC,-15000.00
-,,,,,
+7,1,5,RBC Royal Credit Line - Student,RBC,15000.00
