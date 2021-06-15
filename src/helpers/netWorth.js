@@ -67,11 +67,12 @@ function assetsDebt() {
   })
   let sumOfAssets = 0;
   for(let x = 0; x <assetsArray.length; x++) {
-    sumOfAssets += parseInt(assetsArray[x].balance)
+    sumOfAssets += Number(assetsArray[x].balance.replace(/[^0-9\.-]+/g,""));
   }
   let sumOfDebt = 0;
   for(let x = 0; x <debtArray.length; x++) {
-    sumOfDebt += parseInt(debtArray[x].balance)
+    sumOfDebt += Number(debtArray[x].balance.replace(/[^0-9\.-]+/g,""));
+
   }
   const newArray = []
   newArray.push(sumOfAssets, sumOfDebt)

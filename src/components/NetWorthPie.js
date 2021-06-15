@@ -16,8 +16,8 @@ const NetWorthPie = () => {
     <Pie
      data = {{
         labels: [
-          'Assets',
-          'Debt',
+          'Assets ($)',
+          'Debt ($)',
       ],
       datasets: [{
         data: assetsDebt(),
