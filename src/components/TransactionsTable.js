@@ -24,6 +24,7 @@ const useStyles1 = makeStyles((theme) => ({
   root: {
     flexShrink: 0,
     marginLeft: theme.spacing(2.5),
+    color: '#919090'
   },
 }));
 
@@ -89,16 +90,21 @@ TablePaginationActions.propTypes = {
 const useStyles = makeStyles({
   tableContainer: {
     borderRadius: 15,
-
-    minWidth: 800
+    minWidth: 800,
   },
   tableHeaderCell: {
+    fontFamily: 'inherit',
     fontWeight: 'bold',
-    backgroundColor: "#77A6F7",
+    backgroundColor: "#a7c8fcfb",
     color: 'white',
   },
+  body: {
+    fontFamily: 'inherit',
+    color: '#919090',
+    // backgroundColor: '#FAF1F1'
+  },
   cat: {
-    // fontWeight: 'bold',
+    fontFamily: 'inherit',
     fonstSize: '0.75rem',
     color: 'white',
     backgroundColor: 'grey',
@@ -107,7 +113,7 @@ const useStyles = makeStyles({
     paddingRight: '10px',
     paddingTop: '3px',
     paddingBottom: '3px',
-    display: 'inline-block'
+    display: 'inline-block',
   }
 });
 
@@ -132,33 +138,47 @@ export default function BasicTable(props) {
 
   return (
     <div className="transaction-table">
-      <Paper className={classes.paper}>
-    <TableContainer component={Paper}>
+      <Paper className={classes.paper} style={{boxShadow: 'none'}}>
+    <TableContainer component={Paper} style={{boxShadow: 'none'}}>
       <Table style={customTableStyle} className={classes.tableContainer} aria-label="simple table">
         <TableHead>
           <TableRow>
-            <TableCell className={classes.tableHeaderCell}>Date</TableCell>
+            <TableCell className={classes.tableHeaderCell} >Date</TableCell>
             <TableCell className={classes.tableHeaderCell} align="right">Description</TableCell>
             <TableCell className={classes.tableHeaderCell} align="right">Category</TableCell>
             <TableCell className={classes.tableHeaderCell} align="right">Amount&nbsp;($)</TableCell>
           </TableRow>
-        </TableHead>
+        </TableHead >
         <TableBody >
           {(rowsPerPage > 0
             ? rows.slice(page * rowsPerPage, page * rowsPerPage + rowsPerPage)
             : rows
           ).map((row) => (
             <TableRow key={row.id}>
-              <TableCell component="th" scope="row">
+              <TableCell style={{fontWeight: 'bold'}} className={classes.body} component="th" scope="row">
                 {row.date}
               </TableCell>
-              <TableCell align="right">{row.description}</TableCell>
+              <TableCell className={classes.body} align="right">{row.description}</TableCell>
               <TableCell align="right">
-                <Typography className={classes.cat}>
+                <Typography 
+                  className={classes.cat}
+                  style={{
+                    backgroundColor:
+                    ((row.category === 'food' && '#008376') ||
+                    (row.category === 'transportation' && '#008376') ||
+                    (row.category === 'shelter' && '#77A6F7') ||
+                    (row.category === 'health & personal' && '#FFCCBC') ||
+                    (row.category === 'household' && '#FFCCBC') ||
+                    (row.category === 'reacreation, education, & reading' && '#cbdcfa') ||
+                    (row.category === 'alcohol & tobacco' && '#cbdcfa') ||
+                    (row.category === 'clothing & footwear' && '#77A6F7')),
+                    // color: ((row.category === 'reacreation, education, & reading' && '#b8b7b7') ||
+                    // (row.category === 'alcohol & tobacco' && '#a1a0a0'))
+                  }}>
                 {row.category}
                 </Typography>
                 </TableCell>
-              <TableCell align="right">{row.amount}</TableCell>
+              <TableCell className={classes.body} align="right">{row.amount}</TableCell>
             </TableRow>
           ))}
            {emptyRows > 0 && (
@@ -183,6 +203,9 @@ export default function BasicTable(props) {
               onChangePage={handleChangePage}
               onChangeRowsPerPage={handleChangeRowsPerPage}
               ActionsComponent={TablePaginationActions}
+              style={{
+                color: '#919090',
+              }}
             />
           </TableRow>
         </TableFooter>

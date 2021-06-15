@@ -53,17 +53,6 @@
 .btn--inside {
   margin-left: -110px;
 }
-
-/* .form__field {
-  width: 360px;
-		background: #fff;
-		color: #a3a3a3;
-		font: inherit;
-		box-shadow: 0 6px 10px 0 rgba(0, 0, 0 , .1);
-		border: 0;
-		outline: 0;
-		padding: 22px 18px;
-} */
 .form__field {
   width: 370px;
   border-radius: 6.25em;
@@ -78,7 +67,7 @@
 }
 
 .form__field::placeholder {
-  font-family: inherit;
+  font-family: 'Roboto', sans-serif;
   color: #d1cfcf;
   font-weight: bolder;
 }
