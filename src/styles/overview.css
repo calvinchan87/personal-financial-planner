@@ -1,0 +1,10 @@
+.networthpie {
+  height: 500px;
+  width: 500px;
+}
+
+.overviewpage {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 45px;
+}

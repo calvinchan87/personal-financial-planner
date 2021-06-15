@@ -2,7 +2,7 @@ import React from 'react';
 import { Pie } from 'react-chartjs-2'
 import useNetWorthData from '../helpers/netWorth'
 
-import '../styles/transactionsPie.css'
+import '../styles/overview.css'
 
 const NetWorthPie = () => {
 
@@ -12,7 +12,7 @@ const NetWorthPie = () => {
     assetsDebt
   } = useNetWorthData();
 
-    return <div class = 'transactionpie'>
+    return <div class = 'networthpie'>
     <Pie
      data = {{
         labels: [
@@ -28,7 +28,9 @@ const NetWorthPie = () => {
         plugins: {
             title: {
                 display: true,
-                text: `networth = ${netWorth()}`
+                text: `Net Worth = ${netWorth()}`,
+                padding: 20,
+                font: { size: 30 }
             },
             legend: {
               display: false
