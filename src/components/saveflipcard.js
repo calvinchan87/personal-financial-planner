@@ -13,7 +13,7 @@ export default function SaveFlipCard() {
       ref={ref} // to use toggle method like ref.curret.toggle()
       // if you pass isFlipped prop component will be controlled component.
       // and other props, which will go to div
-      style={{ width: '200px', height: '200px' }} /// these are optional style, it is not necessary
+      style={{ width: '275px', height: '200px' }} /// these are optional style, it is not necessary
   >
     <FrontSide style={{ backgroundColor: '#97b1de'}} >
       <div className="title">
@@ -34,7 +34,9 @@ export default function SaveFlipCard() {
       <div className="formula">
         (Income - Expenses) / Income
       </div>
-      You should aim to have at least 10% Savings rate.
+      <div className="description">
+        You should aim to have at least 10% Savings rate.
+      </div>
     </BackSide>
   </Flippy>
   )

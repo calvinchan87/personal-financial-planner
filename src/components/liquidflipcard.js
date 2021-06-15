@@ -11,12 +11,12 @@ export default function LiquidFlipCard() {
       ref={ref} // to use toggle method like ref.curret.toggle()
       // if you pass isFlipped prop component will be controlled component.
       // and other props, which will go to div
-      style={{ width: '200px', height: '200px' }} /// these are optional style, it is not necessary
+      style={{ width: '275px', height: '200px' }} /// these are optional style, it is not necessary
   >
     <FrontSide style={{ backgroundColor: '#97b1de'}} >
     <div className="title">
         <h3>
-          Your Liquidity Ratio:
+          Your Current Liquidity Ratio:
         </h3>
       </div> 
       <div className="rate_ratio">
@@ -32,7 +32,9 @@ export default function LiquidFlipCard() {
       <div className="formula">
         Cash + Investments / Monthly Expenses
       </div>
-      number of months that you can continue to meet your expenses using your cash and Investments.
+      <div className="description">
+        Number of months that you can continue to meet your expenses using your cash and Investments.
+      </div>
     </BackSide>
   </Flippy>
   )

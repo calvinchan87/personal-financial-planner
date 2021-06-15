@@ -11,12 +11,12 @@ export default function EmergencyFlipCard() {
       ref={ref} // to use toggle method like ref.curret.toggle()
       // if you pass isFlipped prop component will be controlled component.
       // and other props, which will go to div
-      style={{ width: '200px', height: '200px' }} /// these are optional style, it is not necessary
+      style={{ width: '275px', height: '200px' }} /// these are optional style, it is not necessary
     >
       <FrontSide style={{ backgroundColor: '#97b1de' }} >
         <div className="title">
           <h3>
-            Your Emergency Funds Ratio:
+            Your Current Emergency Funds Ratio:
           </h3>
         </div>
         <div className="rate_ratio">
@@ -32,7 +32,9 @@ export default function EmergencyFlipCard() {
       <div className="formula">
         Cash / (Monthly Expenses * 6)
       </div>
-      If you are over 100 %, it means you have more than 6 months worth of expenses saved.
+      <div className="description">
+        If you are over 100 %, it means you have more than 6 months worth of expenses saved.
+      </div>
       </BackSide>
     </Flippy>
   )

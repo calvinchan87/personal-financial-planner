@@ -1,3 +1,8 @@
+.flipcard {
+  display: flex;
+  justify-content: space-evenly;
+}
+
 .title {
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -7,7 +12,7 @@
 .rate_ratio {
   text-align: center;
   font-weight: bold;
-  font-size: 1.17em;
+  font-size: 1.37em;
 }
 
 .backtitle {
@@ -16,8 +21,13 @@
   padding-bottom: inherit;
 }
 
-.formula {
+.formula{
   text-align: center;
+  font-size: 1.17em;
   font-weight: bold;
   padding-bottom: inherit;
+}
+
+.description {
+  text-align: center;
 }
