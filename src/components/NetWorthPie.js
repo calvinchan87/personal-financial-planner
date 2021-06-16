@@ -21,7 +21,7 @@ const NetWorthPie = () => {
       ],
       datasets: [{
         data: assetsDebt(),
-        backgroundColor: ['#77A6F7', '#FFCCBC']
+        backgroundColor: ['#00887A', '#FFC9B8']
     }],
       }}
       options = {{
@@ -30,7 +30,10 @@ const NetWorthPie = () => {
                 display: true,
                 text: `Net Worth = ${netWorth()}`,
                 padding: 20,
-                font: { size: 30 }
+                font: { size: 30 },
+                fontFamily: 'inherit',
+                color: '#919090',
+
             },
             legend: {
               display: false

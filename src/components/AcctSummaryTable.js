@@ -15,8 +15,10 @@ const faker = require('faker');
 
 const StyledTableCell = withStyles((theme) => ({
   head: {
-    backgroundColor: theme.palette.info.light,
-    color: theme.palette.common.white,
+    fontFamily: 'Roboto, sans-serif',
+    fontWeight: 'bold',
+    backgroundColor: "#a7c8fcfb",
+    color: 'white',
   },
   body: {
     fontSize: 14,
@@ -35,6 +37,10 @@ const useStyles = makeStyles({
   table: {
       minWidth: 700,
     },
+  body: {
+    fontFamily: 'inherit',
+    color: '#919090',
+  }
 });
 
 
@@ -68,10 +74,10 @@ const CustomizedTables = () => {
         <TableBody>
           {cashArray().map((row) => (
             <StyledTableRow key={row.id}>
-              <StyledTableCell component="th" scope="row">
+              <StyledTableCell className={classes.body}  component="th" scope="row">
                 {row.description}
               </StyledTableCell>
-              <StyledTableCell align="right">${row.balance}</StyledTableCell>
+              <StyledTableCell className={classes.body} style={{fontWeight: 'bold'}} align="right">${row.balance}</StyledTableCell>
             </StyledTableRow>
           ))}
         </TableBody>
@@ -84,11 +90,11 @@ const CustomizedTables = () => {
         </TableHead>
         <TableBody>
         {creditCardArray().map((row) => (
-          <StyledTableRow key={row.id}>
-              <StyledTableCell component="th" scope="row">
+          <StyledTableRow key={row.id} className={classes.body}>
+              <StyledTableCell className={classes.body}  component="th" scope="row">
                 {row.description}
               </StyledTableCell>
-              <StyledTableCell align="right">-${row.balance}</StyledTableCell>
+              <StyledTableCell className={classes.body} style={{fontWeight: 'bold'}} align="right">-${row.balance}</StyledTableCell>
             </StyledTableRow>
           ))}
         </TableBody>
@@ -102,10 +108,10 @@ const CustomizedTables = () => {
         <TableBody>
         {investmentArray().map((row) => (
           <StyledTableRow key={row.id}>
-              <StyledTableCell component="th" scope="row">
+              <StyledTableCell className={classes.body}  component="th" scope="row">
                 {row.description}
               </StyledTableCell>
-              <StyledTableCell align="right">${row.balance}</StyledTableCell>
+              <StyledTableCell className={classes.body} style={{fontWeight: 'bold'}} align="right">${row.balance}</StyledTableCell>
             </StyledTableRow>
           ))}
         </TableBody>
@@ -119,10 +125,10 @@ const CustomizedTables = () => {
         <TableBody>
         {loansArray().map((row) => (
           <StyledTableRow key={row.id}>
-              <StyledTableCell component="th" scope="row">
+              <StyledTableCell className={classes.body}  component="th" scope="row">
                 {row.description}
               </StyledTableCell>
-              <StyledTableCell align="right">-${row.balance}</StyledTableCell>
+              <StyledTableCell className={classes.body} style={{fontWeight: 'bold'}} align="right">-${row.balance}</StyledTableCell>
             </StyledTableRow>
           ))}
         </TableBody>

@@ -75,7 +75,7 @@ const Badge = () => {
     <>
       <div class="entire">
       <br></br>
-      <h2 class="section">Achievements earned since your last visit</h2>
+      <h2 style={{fontFamily: 'Roboto, sans-serif', color:'#727171'}} class="section">Achievements earned since your last visit</h2>
       <div class="container">
         <div class="container-ind">
            <Tooltip title="Congratulations, you've saved at least 10% of your income every month in the past year!" placement="bottomLeft">
@@ -86,7 +86,7 @@ const Badge = () => {
          </div>
       </div>
       <br></br>
-      <h2 class="section">All Achievements</h2>
+      <h2 style={{fontFamily: 'Roboto, sans-serif', color:'#727171'}} class="section">All Achievements</h2>
       <div class="container">
         <div class="container-ind">
            <Tooltip title="Congratulations, you've saved at least 10% of your income every month in the past year!" placement="bottomLeft">
@@ -120,7 +120,7 @@ const Badge = () => {
          </div>
       </div>
       <br></br>
-      <h2 class="section">Unearned Achievements</h2>
+      <h2 style={{fontFamily: 'Roboto, sans-serif', color:'#727171'}} class="section">Unearned Achievements</h2>
       <div class="container">
       <div class="container-ind">
           <Tooltip title="Unlock this achievement by spending less than 15% of your total income on food and groceries for 3 consecutive months." placement="bottomLeft">

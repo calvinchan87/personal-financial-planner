@@ -47,9 +47,9 @@ const expensesArray = () => {
    }
    return exp
  };
-  return <div class="IEGlinegraph">
-    <h1 className="IEGtitle" >Income Expense Graph</h1>
-    <Line
+  return <div class="IEGlinegraph" >
+    <h1 style={{fontFamily: 'Roboto, sans-serif', color:'#919090'}} className="IEGtitle">Income Expense Graph</h1>
+    <Line 
      data = {{
       labels: dateArray(),
       datasets: [

@@ -93,7 +93,7 @@ const useStyles = makeStyles({
     minWidth: 800,
   },
   tableHeaderCell: {
-    fontFamily: 'inherit',
+    fontFamily: 'Roboto, sans-serif',
     fontWeight: 'bold',
     backgroundColor: "#a7c8fcfb",
     color: 'white',
@@ -123,7 +123,7 @@ export default function BasicTable(props) {
   const customTableStyle = {width: 100}
   
   const [page, setPage] = React.useState(0);
-  const [rowsPerPage, setRowsPerPage] = React.useState(5);
+  const [rowsPerPage, setRowsPerPage] = React.useState(100);
   
   const emptyRows = rowsPerPage - Math.min(rowsPerPage, rows.length - page * rowsPerPage);
 

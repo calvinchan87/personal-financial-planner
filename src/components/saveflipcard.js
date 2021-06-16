@@ -15,7 +15,7 @@ export default function SaveFlipCard() {
       // and other props, which will go to div
       style={{ width: '275px', height: '200px' }} /// these are optional style, it is not necessary
   >
-    <FrontSide style={{ backgroundColor: '#97b1de'}} >
+    <FrontSide style={{ backgroundColor: '#97b1de', fontFamily: 'Roboto, sans-serif'}} >
       <div className="title">
         <h3>
           Your Savings Rate for May-21:

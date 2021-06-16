@@ -48,6 +48,19 @@ function App() {
         {active === "insight" && <LiquidFlipCard />}
         {active === "insight" && <EmergencyFlipCard />}
       </div>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
     </div>
   );
 }
