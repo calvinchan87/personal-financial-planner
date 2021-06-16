@@ -10,30 +10,6 @@ const Badge = () => {
   const { transactions } = useTransactionData();
   console.log("User transactions loading: ", transactions)
 
-  function Grocery(props) {
-
-    // const dataLength = props.data.length;
-    // const isEarned = dataLength > 613 ? true : false;
-
-    let currentMonthFoodExp = 0;
-    let lastMonthFoodExp = 0;
-    for (let t of props.data) {
-      if (t.date === "Jun-21" && t.category === "food") {
-        currentMonthFoodExp += parseInt(t.amount);
-      }
-      if (t.date === "May-21" && t.category === "food") {
-        lastMonthFoodExp += parseInt(t.amount);
-      }
-    }
-    console.log("Current month food expenses: ", currentMonthFoodExp)
-    console.log("Last month food expenses: ", lastMonthFoodExp)
-
-    const isEarned = currentMonthFoodExp < lastMonthFoodExp ? true : false;
-
-    return <Alert style={isEarned ? {background: `linear-gradient(rgba(255,255,255,.8), rgba(255,255,255,.7)), url("https://images.unsplash.com/photo-1498579397066-22750a3cb424?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=640")`} : {background: "mauve"}}
-                  message="Grocery Guru" description={isEarned ? "Earned Jun-21" : "Achievement not unlocked"} type={isEarned ? "success" : "error"} showIcon />
-  }
-  
   function Saver(props) {
     const isEarned = props.isEarned;
     const isClosable = props.isClosable;
@@ -45,6 +21,29 @@ const Badge = () => {
     const isEarned = props.isEarned;
     return <Alert style={isEarned ? {background: `linear-gradient(rgba(255,255,255,.7), rgba(255,255,255,.6)), url("https://images.unsplash.com/photo-1554475025-787dd4309d6b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=640")`} : {background: "mauve"}}
                   message="Debt Destroyer" description={isEarned ? "Earned Jun-21" : "Achievement not unlocked"} type={isEarned ? "success" : "error"} showIcon />
+  }
+
+  function Grocery(props) {
+
+    // // real functionality && logic would work like this
+    // let currentMonthFoodExp = 0;
+    // let lastMonthFoodExp = 0;
+    // for (let t of props.data) {
+    //   if (t.date === "Jun-21" && t.category === "food") {
+    //     currentMonthFoodExp += parseInt(t.amount);
+    //   }
+    //   if (t.date === "May-21" && t.category === "food") {
+    //     lastMonthFoodExp += parseInt(t.amount);
+    //   }
+    // }
+    // console.log("Current month food expenses: ", currentMonthFoodExp)
+    // console.log("Last month food expenses: ", lastMonthFoodExp)
+
+    // const isEarned = currentMonthFoodExp < lastMonthFoodExp ? true : false;
+
+    const isEarned = props.isEarned;
+    return <Alert style={isEarned ? {background: `linear-gradient(rgba(255,255,255,.8), rgba(255,255,255,.7)), url("https://images.unsplash.com/photo-1498579397066-22750a3cb424?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=640")`} : {background: "mauve"}}
+                  message="Grocery Guru" description={isEarned ? "Earned Jun-21" : "Achievement not unlocked"} type={isEarned ? "success" : "error"} showIcon />
   }
   
   function Energy(props) {
