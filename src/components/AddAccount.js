@@ -9,7 +9,7 @@ const AddAccount = () => {
     <div className='new-acct'>
     <PlusCircleOutlined style={{width: '40px', fontSize:25, color: '#00887A'}}/>
   <div>
-    <h3 style={{color: '#00887A', fontFamily: 'Roboto, sans-serif'}}>Add new account</h3>
+    <h3 style={{color: '#00887A', fontFamily: 'Roboto, sans-serif'}}>Add account</h3>
   </div>
     </div>
   )
