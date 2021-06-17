@@ -5,12 +5,14 @@ import GovCompareChart from './components/govCompareChart'
 import SaveFlipCard from './components/saveflipcard'
 import LiquidFlipCard from './components/liquidflipcard'
 import EmergencyFlipCard from './components/emergencyflipcard'
+import AddAccount from './components/AddAccount';
 
 
 import IncomeExpenseLineGraph from './components/IncomeExpenseLineGraph';
 import NetWorthPie from './components/NetWorthPie';
 import TransactionPage from './components/TransactionPage';
 import Badge from './components/Badge'
+
 
 import './styles/app.css'
 import './styles/navButton.css'
@@ -33,7 +35,11 @@ function App() {
       <br></br>
       <div>
         <div className="overviewpage">
+          <div>
+          {active === "overview" && <AddAccount />}
+          <br></br>
           {active === "overview" && <AcctSummaryTable />}
+          </div>
           {active === "overview" && <NetWorthPie />}
         </div>
         {active === "transaction" && <TransactionPage />}
@@ -47,6 +53,8 @@ function App() {
         {active === "insight" && <SaveFlipCard />}
         {active === "insight" && <LiquidFlipCard />}
         {active === "insight" && <EmergencyFlipCard />}
+      </div>
+      <div>
       </div>
       <br></br>
       <br></br>

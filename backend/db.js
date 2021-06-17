@@ -7,17 +7,17 @@ const pool = new Pool({
   // port: 5432,
   // database: 'postgres'
 
-  user: 'kiupkim',
-  password: 'ilikeps3',
-  host: 'localhost',
-  port: 5432,
-  database: 'personalfp'
-
-  // user: 'carolynscobie',
-  // password: 'thisismypassw0rd',
+  // user: 'kiupkim',
+  // password: 'ilikeps3',
   // host: 'localhost',
   // port: 5432,
-  // database: 'final_project'
+  // database: 'personalfp'
+
+  user: 'carolynscobie',
+  password: 'thisismypassw0rd',
+  host: 'localhost',
+  port: 5432,
+  database: 'final_project'
 
 });
 
