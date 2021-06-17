@@ -18,6 +18,7 @@ import './styles/app.css'
 import './styles/navButton.css'
 import './styles/insightspage.css'
 import './styles/flipcard.css'
+import logo from './PFP.png'
 
 function App() {
   const [active, setActive] = useState("overview")
@@ -25,7 +26,7 @@ function App() {
   return (
     <div className="App">
       <nav className="nav-bar">
-        <img className="img-responsive" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1ViHzG7hGs1CgyVlicBVPuIeyUMYaEGtJsBlGQiZcMdQ6J0abaSywP1MDPzp8RjZDRA" alt="logo" onClick={() => setActive("overview")} />
+        <img className="img-responsive" src={logo} alt="logo" onClick={() => setActive("overview")} />
         <button class={active === "overview" ? "nav-button active" : "nav-button"} onClick={() => setActive("overview")}>Overview</button>
         <button class={active === "transaction" ? "nav-button active" : "nav-button"} onClick={() => setActive("transaction")}>Transactions</button>
         <button class={active === "insight" ? "nav-button active" : "nav-button"} onClick={() => setActive("insight")}>Insights</button>
